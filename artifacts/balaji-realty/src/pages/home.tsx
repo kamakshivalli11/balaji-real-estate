@@ -646,6 +646,44 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Map Section */}
+        <section id="map" className="relative">
+          <div className="bg-[#F8FAFC] py-12 px-4 md:px-6 text-center">
+            <h2 className="text-sm font-bold text-primary tracking-[0.2em] uppercase mb-3 flex items-center justify-center gap-2">
+              <MapPin className="h-4 w-4" /> Find Us
+            </h2>
+            <h3 className="text-2xl md:text-3xl font-bold text-gray-900">
+              Hebbal Kempapura, North Bangalore
+            </h3>
+            <p className="text-gray-500 mt-2 text-base">No:16, 14th A Cross, Dasarahalli Main Rd, Bhuvaneswari Nagar, Hebbal, Bengaluru – 560024</p>
+          </div>
+          <div className="w-full h-[420px] md:h-[500px]">
+            <iframe
+              title="Balaji R North Bangalore Location"
+              src="https://maps.google.com/maps?q=Balaji+R+North+Bangalore,+Hebbal+Kempapura,+Bengaluru&output=embed&z=15"
+              width="100%"
+              height="100%"
+              style={{ border: 0, display: 'block' }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              data-testid="iframe-google-map"
+            />
+          </div>
+          <div className="bg-[#F8FAFC] py-6 text-center">
+            <a
+              href="https://share.google/iWmTqNNrZMRs4Xpvk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-primary font-bold hover:underline text-base"
+              data-testid="link-open-google-maps"
+            >
+              <MapPin className="h-4 w-4" />
+              Open in Google Maps
+            </a>
+          </div>
+        </section>
+
       </main>
 
       {/* 10. Footer */}
