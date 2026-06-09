@@ -17,24 +17,32 @@ import { useToast } from "@/hooks/use-toast";
 
 const Counter = ({ end, duration = 2, label }: { end: number, duration?: number, label: string }) => {
   const [count, setCount] = useState(0);
-  
+  const [started, setStarted] = useState(false);
+  const ref = React.useRef<HTMLDivElement>(null);
+
   useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => { if (entry.isIntersecting && !started) setStarted(true); },
+      { threshold: 0.5 }
+    );
+    if (ref.current) observer.observe(ref.current);
+    return () => observer.disconnect();
+  }, [started]);
+
+  useEffect(() => {
+    if (!started) return;
     let start = 0;
     const increment = end / (duration * 60);
     const timer = setInterval(() => {
       start += increment;
-      if (start >= end) {
-        setCount(end);
-        clearInterval(timer);
-      } else {
-        setCount(Math.ceil(start));
-      }
+      if (start >= end) { setCount(end); clearInterval(timer); }
+      else setCount(Math.ceil(start));
     }, 1000 / 60);
     return () => clearInterval(timer);
-  }, [end, duration]);
+  }, [started, end, duration]);
 
   return (
-    <div className="flex flex-col items-center p-4">
+    <div ref={ref} className="flex flex-col items-center p-4">
       <div className="text-4xl md:text-5xl font-bold text-primary mb-2 tracking-tight">{count}+</div>
       <div className="text-xs md:text-sm text-gray-600 font-semibold uppercase tracking-wider text-center">{label}</div>
     </div>
@@ -92,7 +100,7 @@ export default function Home() {
     });
   };
 
-  const logoUrl = `${import.meta.env.BASE_URL}balaji-logo.jpeg`;
+  const logoUrl = `${import.meta.env.BASE_URL}balaji-logo-new.jpeg`;
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col font-sans">
@@ -352,6 +360,49 @@ export default function Home() {
                   <Counter end={100} label="Properties" />
                   <Counter end={95} label="Satisfaction %" />
                 </div>
+
+                {/* Authorised Channel Partner */}
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, delay: 0.2 }}
+                  className="mt-10 p-6 rounded-2xl border-2 border-green-200 bg-[#F0FAF0]"
+                >
+                  <div className="flex items-center gap-2 mb-4">
+                    <BadgeCheck className="h-5 w-5 text-green-700 shrink-0" />
+                    <h4 className="text-sm font-bold text-green-800 uppercase tracking-[0.15em]">Authorised Channel Partner</h4>
+                  </div>
+                  <p className="text-gray-600 text-sm mb-5">Officially partnered with North Bangalore's most trusted developers</p>
+                  <div className="grid grid-cols-3 sm:grid-cols-5 gap-3">
+                    {[
+                      { name: "PRESTIGE", bg: "#1a1a2e", text: "#ffffff", sub: "Group" },
+                      { name: "SOBHA", bg: "#b30000", text: "#ffffff", sub: "Ltd." },
+                      { name: "PURAVANKARA", bg: "#e65c00", text: "#ffffff", sub: "" },
+                      { name: "SATTVA", bg: "#1b4332", text: "#ffffff", sub: "Group" },
+                      { name: "BRIGADE", bg: "#003087", text: "#ffffff", sub: "Group" },
+                      { name: "TVS", bg: "#c8102e", text: "#ffffff", sub: "Emerald" },
+                      { name: "CENTURY", bg: "#4a0e8f", text: "#ffffff", sub: "Real Estate" },
+                      { name: "EMBASSY", bg: "#b8860b", text: "#ffffff", sub: "Group" },
+                      { name: "DNR", bg: "#1a1a1a", text: "#ffffff", sub: "Corp" },
+                    ].map((brand) => (
+                      <div
+                        key={brand.name}
+                        className="flex flex-col items-center justify-center px-2 py-3 rounded-xl shadow-sm hover:shadow-lg hover:scale-105 transition-all duration-200 cursor-default"
+                        style={{ background: brand.bg }}
+                      >
+                        <span className="text-[11px] font-black tracking-widest text-center" style={{ color: brand.text }}>
+                          {brand.name}
+                        </span>
+                        {brand.sub && (
+                          <span className="text-[9px] font-medium tracking-wider mt-0.5 opacity-80 text-center" style={{ color: brand.text }}>
+                            {brand.sub}
+                          </span>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </motion.div>
               </motion.div>
 
               {/* RIGHT: Award photo only */}
