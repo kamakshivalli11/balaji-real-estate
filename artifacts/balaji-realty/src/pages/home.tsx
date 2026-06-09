@@ -300,36 +300,13 @@ export default function Home() {
         {/* 3. About Section */}
         <section id="about" className="py-24 md:py-32 bg-white relative overflow-hidden">
           <div className="absolute top-0 right-0 w-1/3 h-full bg-[#F8FAFC] -skew-x-12 transform origin-top-right z-0"></div>
-          
+
           <div className="container relative z-10 mx-auto px-4 md:px-6">
-            <div className="flex flex-col lg:flex-row gap-16 items-center">
-              <motion.div 
-                className="w-full lg:w-5/12"
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+
+              {/* LEFT: Text + Stats */}
+              <motion.div
                 initial={{ opacity: 0, x: -40 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true, margin: "-100px" }}
-                transition={{ duration: 0.7 }}
-              >
-                <div className="relative">
-                  <div className="absolute inset-0 bg-primary/10 rounded-[2.5rem] transform -rotate-6 scale-105 z-0"></div>
-                  <img src={`${import.meta.env.BASE_URL}balaji-photo.png`} alt="Balaji R" className="relative z-10 w-full rounded-3xl shadow-2xl object-cover aspect-square border-8 border-white" style={{ objectPosition: 'top' }} />
-                  <div className="absolute -bottom-8 -right-8 bg-white p-6 rounded-2xl shadow-xl z-20 border border-gray-100 hidden md:block animate-bounce" style={{ animationDuration: '3s' }}>
-                    <div className="flex items-center gap-5">
-                      <div className="bg-green-100 p-4 rounded-xl">
-                        <Star className="text-primary h-8 w-8 fill-primary" />
-                      </div>
-                      <div>
-                        <div className="text-3xl font-bold text-gray-900">5.0</div>
-                        <div className="text-sm font-bold text-gray-500 uppercase tracking-wider">Client Rating</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </motion.div>
-              
-              <motion.div 
-                className="w-full lg:w-7/12 lg:pl-10"
-                initial={{ opacity: 0, x: 40 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 0.7 }}
@@ -337,37 +314,50 @@ export default function Home() {
                 <h2 className="text-sm font-bold text-primary tracking-[0.2em] uppercase mb-4 flex items-center">
                   <span className="w-8 h-0.5 bg-primary mr-3"></span> About Balaji R
                 </h2>
-                <h3 className="text-3xl md:text-5xl font-bold text-gray-900 mb-8 leading-tight">Your Local North Bangalore Market Expert</h3>
-                <div className="space-y-6 text-gray-600 text-lg md:text-xl leading-relaxed mb-10">
+                <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-8 leading-tight">
+                  Your Local North Bangalore Market Expert
+                </h3>
+                <div className="space-y-5 text-gray-600 text-lg leading-relaxed mb-10">
                   <p className="font-medium text-gray-800">
-                    With deep roots in North Bangalore, I specialize in providing honest, transparent, and highly personalized real estate guidance. 
+                    With deep roots in North Bangalore, I specialize in providing honest, transparent, and highly personalized real estate guidance.
                   </p>
                   <p>
-                    Whether you are looking for your dream home or a high-ROI investment, my local expertise ensures you make the right choice. I focus strictly on verified, RERA-approved properties and provide end-to-end support—from initial site visits to legal documentation and final registration. My philosophy is simple: client satisfaction over everything else.
+                    Whether you are looking for your dream home or a high-ROI investment, my local expertise ensures you make the right choice. I focus strictly on verified, RERA-approved properties and provide end-to-end support — from initial site visits to legal documentation and final registration.
                   </p>
                 </div>
-                
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 bg-gray-50/80 p-4 rounded-2xl border border-gray-100 shadow-inner mb-10">
+
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 bg-gray-50/80 p-4 rounded-2xl border border-gray-100 shadow-inner">
                   <Counter end={5} label="Years Exp." />
                   <Counter end={200} label="Happy Clients" />
                   <Counter end={100} label="Properties" />
                   <Counter end={95} label="Satisfaction %" />
                 </div>
+              </motion.div>
 
-                {/* Award Photo */}
-                <div className="relative rounded-2xl overflow-hidden shadow-xl border-4 border-white">
+              {/* RIGHT: Award photo only */}
+              <motion.div
+                initial={{ opacity: 0, x: 40 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true, margin: "-100px" }}
+                transition={{ duration: 0.7 }}
+                className="flex justify-center"
+              >
+                <div className="relative w-full max-w-md rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
                   <img
                     src={`${import.meta.env.BASE_URL}balaji-award2.jpeg`}
                     alt="Balaji R – Silver Partner Award"
                     className="w-full object-cover"
                     data-testid="img-balaji-award"
                   />
-                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent px-5 py-4 flex items-center gap-3">
+                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/75 to-transparent px-5 py-5 flex items-center gap-3">
                     <Star className="h-5 w-5 text-yellow-400 fill-yellow-400 shrink-0" />
-                    <span className="text-white font-bold text-sm tracking-wide">Silver Partner Award – Recognised for Outstanding Contribution</span>
+                    <span className="text-white font-bold text-sm tracking-wide">
+                      Silver Partner Award – Recognised for Outstanding Contribution
+                    </span>
                   </div>
                 </div>
               </motion.div>
+
             </div>
           </div>
         </section>
