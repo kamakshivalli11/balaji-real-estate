@@ -42,10 +42,16 @@ const Counter = ({ end, duration = 2, label }: { end: number, duration?: number,
 };
 
 const SectionHeading = ({ title, subtitle }: { title: string, subtitle: string }) => (
-  <div className="text-center max-w-3xl mx-auto mb-16">
+  <motion.div
+    className="text-center max-w-3xl mx-auto mb-16"
+    initial={{ opacity: 0, y: 24 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true, margin: "-80px" }}
+    transition={{ duration: 0.6, ease: "easeOut" }}
+  >
     <h2 className="text-sm font-bold text-primary tracking-[0.2em] uppercase mb-3">{subtitle}</h2>
     <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">{title}</h3>
-  </div>
+  </motion.div>
 );
 
 export default function Home() {
@@ -156,8 +162,18 @@ export default function Home() {
         {/* 2. Hero Section */}
         <section id="home" className="relative overflow-hidden min-h-screen flex items-center" style={{ background: 'linear-gradient(135deg, #ffffff 0%, #f0faf0 40%, #E8F5E9 100%)' }}>
           {/* Decorative background blobs */}
-          <div className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full opacity-30 pointer-events-none" style={{ background: 'radial-gradient(circle, #c8e6c9 0%, transparent 70%)', transform: 'translate(30%, -30%)' }} />
-          <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full opacity-20 pointer-events-none" style={{ background: 'radial-gradient(circle, #a5d6a7 0%, transparent 70%)', transform: 'translate(-40%, 40%)' }} />
+          <motion.div
+            className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full opacity-30 pointer-events-none"
+            style={{ background: 'radial-gradient(circle, #c8e6c9 0%, transparent 70%)' }}
+            animate={{ x: [0, 20, 0], y: [0, -20, 0] }}
+            transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
+          />
+          <motion.div
+            className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full opacity-20 pointer-events-none"
+            style={{ background: 'radial-gradient(circle, #a5d6a7 0%, transparent 70%)' }}
+            animate={{ x: [0, -15, 0], y: [0, 15, 0] }}
+            transition={{ duration: 12, repeat: Infinity, ease: "easeInOut", delay: 2 }}
+          />
           {/* Dot grid pattern */}
           <div className="absolute inset-0 opacity-[0.04] pointer-events-none" style={{ backgroundImage: 'radial-gradient(circle, #2E7D32 1.5px, transparent 1.5px)', backgroundSize: '32px 32px' }} />
 
@@ -280,7 +296,11 @@ export default function Home() {
                 </motion.div>
 
                 {/* Main photo */}
-                <div className="relative z-10">
+                <motion.div
+                  className="relative z-10"
+                  animate={{ y: [0, -14, 0] }}
+                  transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
+                >
                   <img
                     src={`${import.meta.env.BASE_URL}balaji-photo.png`}
                     alt="Balaji R – North Bangalore Real Estate Advisor"
@@ -290,7 +310,7 @@ export default function Home() {
                   />
                   {/* Green accent line */}
                   <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 w-24 h-1.5 rounded-full" style={{ background: '#2E7D32' }} />
-                </div>
+                </motion.div>
               </motion.div>
 
             </div>
@@ -383,8 +403,9 @@ export default function Home() {
                   key={index}
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
+                  whileHover={{ y: -8, scale: 1.02 }}
                   viewport={{ once: true, margin: "-50px" }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  transition={{ duration: 0.4, delay: index * 0.1 }}
                 >
                   <Card className="h-full border-gray-100 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group overflow-hidden bg-white rounded-2xl">
                     <CardContent className="p-8 md:p-10">
@@ -404,7 +425,13 @@ export default function Home() {
         {/* 5. Areas Section */}
         <section id="areas" className="py-24 md:py-32 bg-white">
           <div className="container mx-auto px-4 md:px-6">
-            <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+            <motion.div
+              className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8"
+              initial={{ opacity: 0, y: 28 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-80px" }}
+              transition={{ duration: 0.6, ease: "easeOut" }}
+            >
               <div className="max-w-2xl">
                 <h2 className="text-sm font-bold text-primary tracking-[0.2em] uppercase mb-3 flex items-center">
                   <span className="w-8 h-0.5 bg-primary mr-3"></span> Prime Locations
@@ -415,7 +442,7 @@ export default function Home() {
               <Button onClick={() => scrollTo("contact")} className="shrink-0 rounded-full font-bold px-8 h-14 text-lg">
                 Explore Properties <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-            </div>
+            </motion.div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {[
@@ -474,9 +501,10 @@ export default function Home() {
                   key={i}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
+                  whileHover={{ y: -6, scale: 1.02, boxShadow: "0 12px 32px rgba(46,125,50,0.12)" }}
                   viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: i * 0.1 }}
-                  className="flex items-start gap-4 p-6 rounded-2xl bg-white shadow-sm border border-gray-100"
+                  transition={{ duration: 0.4, delay: i * 0.1 }}
+                  className="flex items-start gap-4 p-6 rounded-2xl bg-white shadow-sm border border-gray-100 cursor-default"
                 >
                   <div className="bg-[#E8F5E9] p-4 rounded-full text-primary shrink-0">
                     {React.cloneElement(feature.icon as React.ReactElement, { className: "h-6 w-6" })}
@@ -499,7 +527,13 @@ export default function Home() {
               title="Real Google Reviews"
             />
             {/* Google rating summary */}
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 bg-[#F8FAFC] rounded-2xl px-6 py-5 max-w-lg mx-auto border border-gray-100 shadow-sm">
+            <motion.div
+              className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 bg-[#F8FAFC] rounded-2xl px-6 py-5 max-w-lg mx-auto border border-gray-100 shadow-sm"
+              initial={{ opacity: 0, scale: 0.92 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, ease: "easeOut" }}
+            >
               <img src="https://www.google.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="Google" className="h-6 object-contain" />
               <div className="flex items-center gap-2">
                 <span className="text-3xl font-extrabold text-gray-900">5.0</span>
@@ -508,7 +542,7 @@ export default function Home() {
                 </div>
                 <span className="text-gray-500 text-sm font-medium">(5 reviews)</span>
               </div>
-            </div>
+            </motion.div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
               {[
@@ -606,9 +640,15 @@ export default function Home() {
             >
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">Looking for Property in North Bangalore?</h2>
               <p className="text-green-50 text-xl mb-10 max-w-2xl mx-auto">Get exclusive access to pre-launch offers, prime locations, and expert negotiation assistance.</p>
-              <Button size="lg" onClick={() => scrollTo("contact")} className="bg-white text-primary hover:bg-gray-100 rounded-full text-xl h-16 px-12 shadow-2xl font-bold transition-transform hover:scale-105">
-                Book Free Consultation
-              </Button>
+              <motion.div
+                animate={{ scale: [1, 1.04, 1] }}
+                transition={{ duration: 2.4, repeat: Infinity, ease: "easeInOut" }}
+                className="inline-block"
+              >
+                <Button size="lg" onClick={() => scrollTo("contact")} className="bg-white text-primary hover:bg-gray-100 rounded-full text-xl h-16 px-12 shadow-2xl font-bold">
+                  Book Free Consultation
+                </Button>
+              </motion.div>
             </motion.div>
           </div>
         </section>
@@ -797,23 +837,40 @@ export default function Home() {
 
       {/* Floating Action Buttons */}
       <div className="fixed bottom-6 right-6 flex flex-col gap-4 z-50">
-        <a 
-          href="tel:+919036727332" 
-          className="bg-gray-900 text-white p-4 rounded-full shadow-[0_8px_30px_rgb(0,0,0,0.12)] hover:scale-110 transition-transform flex items-center justify-center border-2 border-white"
+        <motion.a
+          href="tel:+919036727332"
+          className="bg-gray-900 text-white p-4 rounded-full shadow-[0_8px_30px_rgb(0,0,0,0.18)] flex items-center justify-center border-2 border-white"
           aria-label="Call Now"
+          initial={{ opacity: 0, scale: 0 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ delay: 1.2, type: "spring", stiffness: 260, damping: 20 }}
+          whileHover={{ scale: 1.15 }}
+          whileTap={{ scale: 0.92 }}
+          data-testid="link-float-call"
         >
           <Phone className="h-7 w-7" />
-        </a>
-        <a 
-          href="https://wa.me/919036727332?text=Hi%20Balaji%2C%20I%20am%20interested%20in%20a%20property%20consultation%20in%20North%20Bangalore.%20Please%20get%20in%20touch." 
-          target="_blank" 
+        </motion.a>
+        <motion.a
+          href="https://wa.me/919036727332?text=Hi%20Balaji%2C%20I%20am%20interested%20in%20a%20property%20consultation%20in%20North%20Bangalore.%20Please%20get%20in%20touch."
+          target="_blank"
           rel="noopener noreferrer"
-          className="bg-[#25D366] text-white p-4 rounded-full shadow-[0_8px_30px_rgba(37,211,102,0.4)] hover:scale-110 hover:shadow-[0_12px_40px_rgba(37,211,102,0.5)] transition-all duration-200 flex items-center justify-center border-2 border-white"
+          className="relative bg-[#25D366] text-white p-4 rounded-full shadow-[0_8px_30px_rgba(37,211,102,0.4)] flex items-center justify-center border-2 border-white"
           aria-label="WhatsApp"
           data-testid="link-float-whatsapp"
+          initial={{ opacity: 0, scale: 0 }}
+          animate={{ opacity: 1, scale: [0, 1.15, 1] }}
+          transition={{ delay: 1.5, duration: 0.5, type: "spring" }}
+          whileHover={{ scale: 1.15 }}
+          whileTap={{ scale: 0.92 }}
         >
-          <SiWhatsapp className="h-7 w-7" />
-        </a>
+          {/* Pulse ring */}
+          <motion.span
+            className="absolute w-14 h-14 rounded-full bg-[#25D366] opacity-40"
+            animate={{ scale: [1, 1.6, 1], opacity: [0.4, 0, 0.4] }}
+            transition={{ duration: 2, repeat: Infinity, ease: "easeOut" }}
+          />
+          <SiWhatsapp className="h-7 w-7 relative z-10" />
+        </motion.a>
       </div>
 
     </div>
