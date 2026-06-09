@@ -152,56 +152,145 @@ export default function Home() {
       <main className="flex-1">
         
         {/* 2. Hero Section */}
-        <section id="home" className="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden flex items-center min-h-[90vh]">
-          {/* Background gradient with pattern overlay */}
-          <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-primary to-green-900 z-0">
-             <div className="absolute inset-0 opacity-30 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white/20 to-transparent"></div>
-             <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1600&q=80" alt="Luxury Real Estate" className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-40" />
-          </div>
-          
-          <div className="container relative z-10 mx-auto px-4 md:px-6">
-            <div className="max-w-4xl">
-              <motion.div 
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
+        <section id="home" className="relative overflow-hidden min-h-screen flex items-center" style={{ background: 'linear-gradient(135deg, #ffffff 0%, #f0faf0 40%, #E8F5E9 100%)' }}>
+          {/* Decorative background blobs */}
+          <div className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full opacity-30 pointer-events-none" style={{ background: 'radial-gradient(circle, #c8e6c9 0%, transparent 70%)', transform: 'translate(30%, -30%)' }} />
+          <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full opacity-20 pointer-events-none" style={{ background: 'radial-gradient(circle, #a5d6a7 0%, transparent 70%)', transform: 'translate(-40%, 40%)' }} />
+          {/* Dot grid pattern */}
+          <div className="absolute inset-0 opacity-[0.04] pointer-events-none" style={{ backgroundImage: 'radial-gradient(circle, #2E7D32 1.5px, transparent 1.5px)', backgroundSize: '32px 32px' }} />
+
+          <div className="container relative z-10 mx-auto px-4 md:px-6 pt-28 pb-12 md:pt-36 md:pb-16">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+
+              {/* LEFT: Text content */}
+              <motion.div
+                initial={{ opacity: 0, x: -40 }}
+                animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
+                className="order-2 lg:order-1"
               >
-                <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-xs sm:text-sm font-bold tracking-[0.2em] mb-8 text-white shadow-xl">
-                  <span className="w-2 h-2 rounded-full bg-green-400 mr-2 animate-pulse"></span>
-                  NORTH BANGALORE PROPERTY CONSULTANT
+                {/* Tag */}
+                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-green-200 shadow-sm mb-6">
+                  <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+                  <span className="text-xs font-bold tracking-[0.18em] text-green-700 uppercase">North Bangalore Property Consultant</span>
                 </div>
-                <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-[1.1] mb-6 text-white" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                  Your Trusted Guide to <span className="text-green-300 block mt-2">Buying, Selling & Investing</span>
+
+                {/* Headline */}
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.12] mb-2 text-gray-900" style={{ fontFamily: 'Poppins, sans-serif' }}>
+                  Don't Buy
                 </h1>
-                <p className="text-lg md:text-2xl text-gray-200 mb-10 max-w-2xl leading-relaxed font-medium">
-                  Expert real estate advisory in Hebbal, Yelahanka, Devanahalli and across North Bangalore. Making your property journey seamless.
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.12] mb-2" style={{ fontFamily: 'Poppins, sans-serif', color: '#2E7D32' }}>
+                  Overpriced.
+                </h1>
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.12] mb-6 text-gray-900" style={{ fontFamily: 'Poppins, sans-serif' }}>
+                  Don't Sell Underpriced.
+                </h1>
+
+                <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-xl leading-relaxed">
+                  I'll help you evaluate the right property value — whether you're buying or selling in North Bangalore. Expert guidance for the best deal, every time.
                 </p>
-                
-                <div className="flex flex-col sm:flex-row gap-5 mb-16">
-                  <Button size="lg" onClick={() => scrollTo("contact")} className="bg-white text-primary hover:bg-gray-100 rounded-full text-lg h-16 px-10 shadow-2xl font-bold transition-transform hover:scale-105">
+
+                {/* CTA Buttons */}
+                <div className="flex flex-col sm:flex-row gap-4 mb-10">
+                  <Button
+                    size="lg"
+                    onClick={() => scrollTo("contact")}
+                    className="rounded-full text-base h-14 px-8 shadow-lg font-bold transition-all hover:scale-105 hover:shadow-xl"
+                    style={{ background: '#2E7D32', color: '#fff' }}
+                    data-testid="button-book-consultation-hero"
+                  >
                     Book Free Consultation
                   </Button>
-                  <Button size="lg" variant="outline" onClick={() => window.location.href = "tel:+919036727332"} className="text-white border-2 border-white hover:bg-white hover:text-primary rounded-full text-lg h-16 px-10 bg-transparent font-bold transition-all">
-                    <Phone className="mr-2 h-5 w-5" /> Call Now
-                  </Button>
+                  <a
+                    href="tel:+919036727332"
+                    className="inline-flex items-center justify-center gap-2 rounded-full text-base h-14 px-8 font-bold border-2 transition-all hover:scale-105"
+                    style={{ borderColor: '#2E7D32', color: '#2E7D32', background: 'white' }}
+                    data-testid="link-call-now-hero"
+                  >
+                    <Phone className="h-5 w-5" /> Call Now
+                  </a>
                 </div>
-                
+
                 {/* Trust Badges */}
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-8 border-t border-white/20">
-                  {['Trusted Advisor', 'Verified Projects', 'End-to-End Assistance', 'Local Market Expert'].map((badge, i) => (
-                    <motion.div 
-                      key={i} 
-                      initial={{ opacity: 0, y: 10 }}
+                <div className="grid grid-cols-2 gap-3 pt-8 border-t border-green-100">
+                  {[
+                    { icon: <ShieldCheck className="h-4 w-4" />, label: 'Trusted Advisor' },
+                    { icon: <CheckCircle className="h-4 w-4" />, label: 'Verified Projects' },
+                    { icon: <Users className="h-4 w-4" />, label: 'End-to-End Assistance' },
+                    { icon: <Target className="h-4 w-4" />, label: 'Local Market Expert' },
+                  ].map((badge, i) => (
+                    <motion.div
+                      key={i}
+                      initial={{ opacity: 0, y: 8 }}
                       animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: 0.5 + (i * 0.1) }}
-                      className="flex items-center text-sm md:text-base font-semibold text-white/90"
+                      transition={{ delay: 0.5 + i * 0.1 }}
+                      className="flex items-center gap-2 text-sm font-semibold text-gray-700"
                     >
-                      <CheckCircle className="h-5 w-5 mr-3 text-green-400 shrink-0" />
-                      <span>{badge}</span>
+                      <span className="text-green-600">{badge.icon}</span>
+                      {badge.label}
                     </motion.div>
                   ))}
                 </div>
               </motion.div>
+
+              {/* RIGHT: Balaji's photo */}
+              <motion.div
+                initial={{ opacity: 0, x: 40 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.9, ease: "easeOut", delay: 0.1 }}
+                className="order-1 lg:order-2 flex justify-center lg:justify-end relative"
+              >
+                {/* Decorative card behind photo */}
+                <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                  <div className="w-80 h-80 md:w-[420px] md:h-[420px] rounded-[3rem] rotate-6 opacity-60" style={{ background: 'linear-gradient(135deg, #c8e6c9, #E8F5E9)' }} />
+                </div>
+
+                {/* Silver Award badge */}
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ delay: 0.6 }}
+                  className="absolute top-4 right-4 lg:-top-2 lg:-right-2 bg-white rounded-2xl shadow-xl px-4 py-3 flex items-center gap-3 z-20 border border-green-100"
+                >
+                  <div className="bg-yellow-50 rounded-xl p-2">
+                    <Star className="h-5 w-5 text-yellow-500 fill-yellow-400" />
+                  </div>
+                  <div>
+                    <div className="text-xs font-bold text-gray-500 uppercase tracking-wider">Silver Partner</div>
+                    <div className="text-sm font-bold text-gray-900">Award Winner</div>
+                  </div>
+                </motion.div>
+
+                {/* Phone badge */}
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ delay: 0.8 }}
+                  className="absolute bottom-8 left-0 lg:-left-8 bg-white rounded-2xl shadow-xl px-4 py-3 flex items-center gap-3 z-20 border border-green-100"
+                >
+                  <div className="bg-green-50 rounded-xl p-2">
+                    <Phone className="h-5 w-5 text-green-600" />
+                  </div>
+                  <div>
+                    <div className="text-xs font-bold text-gray-500 uppercase tracking-wider">Call Directly</div>
+                    <div className="text-sm font-bold text-gray-900">+91 90367 27332</div>
+                  </div>
+                </motion.div>
+
+                {/* Main photo */}
+                <div className="relative z-10">
+                  <img
+                    src={`${import.meta.env.BASE_URL}balaji-photo.png`}
+                    alt="Balaji R – North Bangalore Real Estate Advisor"
+                    className="w-72 md:w-[400px] lg:w-[440px] object-cover object-top rounded-[2.5rem] shadow-2xl border-4 border-white"
+                    style={{ maxHeight: '580px' }}
+                    data-testid="img-balaji-hero"
+                  />
+                  {/* Green accent line */}
+                  <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 w-24 h-1.5 rounded-full" style={{ background: '#2E7D32' }} />
+                </div>
+              </motion.div>
+
             </div>
           </div>
         </section>
@@ -221,7 +310,7 @@ export default function Home() {
               >
                 <div className="relative">
                   <div className="absolute inset-0 bg-primary/10 rounded-[2.5rem] transform -rotate-6 scale-105 z-0"></div>
-                  <img src={logoUrl} alt="Balaji R" className="relative z-10 w-full rounded-3xl shadow-2xl object-cover aspect-square border-8 border-white" />
+                  <img src={`${import.meta.env.BASE_URL}balaji-photo.png`} alt="Balaji R" className="relative z-10 w-full rounded-3xl shadow-2xl object-cover aspect-square border-8 border-white" style={{ objectPosition: 'top' }} />
                   <div className="absolute -bottom-8 -right-8 bg-white p-6 rounded-2xl shadow-xl z-20 border border-gray-100 hidden md:block animate-bounce" style={{ animationDuration: '3s' }}>
                     <div className="flex items-center gap-5">
                       <div className="bg-green-100 p-4 rounded-xl">
@@ -616,7 +705,7 @@ export default function Home() {
           <Phone className="h-7 w-7" />
         </a>
         <a 
-          href="https://wa.me/919036727332" 
+          href="https://wa.me/919036727332?text=Hi%20Balaji%2C%20I%20am%20interested%20in%20a%20property%20consultation%20in%20North%20Bangalore.%20Please%20get%20in%20touch." 
           target="_blank" 
           rel="noopener noreferrer"
           className="bg-[#25D366] text-white p-4 rounded-full shadow-[0_8px_30px_rgb(0,0,0,0.12)] hover:scale-110 transition-transform flex items-center justify-center border-2 border-white"
