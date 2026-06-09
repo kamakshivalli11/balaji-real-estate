@@ -345,11 +345,25 @@ export default function Home() {
                   </p>
                 </div>
                 
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 bg-gray-50/80 p-4 rounded-2xl border border-gray-100 shadow-inner">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 bg-gray-50/80 p-4 rounded-2xl border border-gray-100 shadow-inner mb-10">
                   <Counter end={5} label="Years Exp." />
                   <Counter end={200} label="Happy Clients" />
                   <Counter end={100} label="Properties" />
                   <Counter end={95} label="Satisfaction %" />
+                </div>
+
+                {/* Award Photo */}
+                <div className="relative rounded-2xl overflow-hidden shadow-xl border-4 border-white">
+                  <img
+                    src={`${import.meta.env.BASE_URL}balaji-award2.jpeg`}
+                    alt="Balaji R – Silver Partner Award"
+                    className="w-full object-cover"
+                    data-testid="img-balaji-award"
+                  />
+                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent px-5 py-4 flex items-center gap-3">
+                    <Star className="h-5 w-5 text-yellow-400 fill-yellow-400 shrink-0" />
+                    <span className="text-white font-bold text-sm tracking-wide">Silver Partner Award – Recognised for Outstanding Contribution</span>
+                  </div>
                 </div>
               </motion.div>
             </div>
