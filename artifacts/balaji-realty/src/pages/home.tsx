@@ -271,12 +271,12 @@ export default function Home() {
                   <div className="w-80 h-80 md:w-[420px] md:h-[420px] rounded-[3rem] rotate-6 opacity-60" style={{ background: 'linear-gradient(135deg, #c8e6c9, #E8F5E9)' }} />
                 </div>
 
-                {/* Silver Award badge */}
+                {/* Silver Award badge — hidden on mobile, visible md+ */}
                 <motion.div
                   initial={{ opacity: 0, scale: 0.8 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ delay: 0.6 }}
-                  className="absolute top-4 right-4 lg:-top-2 lg:-right-2 bg-white rounded-2xl shadow-xl px-4 py-3 flex items-center gap-3 z-20 border border-green-100"
+                  className="hidden md:flex absolute -top-2 -right-2 bg-white rounded-2xl shadow-xl px-4 py-3 items-center gap-3 z-20 border border-green-100"
                 >
                   <div className="bg-yellow-50 rounded-xl p-2">
                     <Star className="h-5 w-5 text-yellow-500 fill-yellow-400" />
@@ -287,12 +287,12 @@ export default function Home() {
                   </div>
                 </motion.div>
 
-                {/* Phone badge */}
+                {/* Phone badge — hidden on mobile, visible md+ */}
                 <motion.div
                   initial={{ opacity: 0, scale: 0.8 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ delay: 0.8 }}
-                  className="absolute bottom-8 left-0 lg:-left-8 bg-white rounded-2xl shadow-xl px-4 py-3 flex items-center gap-3 z-20 border border-green-100"
+                  className="hidden md:flex absolute bottom-8 lg:-left-8 left-0 bg-white rounded-2xl shadow-xl px-4 py-3 items-center gap-3 z-20 border border-green-100"
                 >
                   <div className="bg-green-50 rounded-xl p-2">
                     <Phone className="h-5 w-5 text-green-600" />
@@ -312,13 +312,25 @@ export default function Home() {
                   <img
                     src={`${import.meta.env.BASE_URL}balaji-photo.png`}
                     alt="Balaji R – North Bangalore Real Estate Advisor"
-                    className="w-72 md:w-[400px] lg:w-[440px] object-cover object-top rounded-[2.5rem] shadow-2xl border-4 border-white"
-                    style={{ maxHeight: '580px' }}
+                    className="w-56 sm:w-72 md:w-[400px] lg:w-[440px] object-cover object-top rounded-[2.5rem] shadow-2xl border-4 border-white"
+                    style={{ maxHeight: '520px' }}
                     data-testid="img-balaji-hero"
                   />
                   {/* Green accent line */}
                   <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 w-24 h-1.5 rounded-full" style={{ background: '#2E7D32' }} />
                 </motion.div>
+
+                {/* Mobile-only inline badges below photo */}
+                <div className="md:hidden absolute -bottom-2 left-1/2 -translate-x-1/2 w-full flex justify-center gap-3 px-2">
+                  <div className="bg-white rounded-xl shadow-md px-3 py-2 flex items-center gap-2 border border-green-100">
+                    <Star className="h-4 w-4 text-yellow-500 fill-yellow-400 shrink-0" />
+                    <span className="text-xs font-bold text-gray-800">Silver Partner</span>
+                  </div>
+                  <a href="tel:+919036727332" className="bg-white rounded-xl shadow-md px-3 py-2 flex items-center gap-2 border border-green-100">
+                    <Phone className="h-4 w-4 text-green-600 shrink-0" />
+                    <span className="text-xs font-bold text-gray-800">90367 27332</span>
+                  </a>
+                </div>
               </motion.div>
 
             </div>
@@ -376,26 +388,27 @@ export default function Home() {
                   <p className="text-gray-600 text-sm mb-5">Officially partnered with North Bangalore's most trusted developers</p>
                   <div className="grid grid-cols-3 sm:grid-cols-5 gap-3">
                     {[
-                      { name: "PRESTIGE", bg: "#1a1a2e", text: "#ffffff", sub: "Group" },
-                      { name: "SOBHA", bg: "#b30000", text: "#ffffff", sub: "Ltd." },
-                      { name: "PURAVANKARA", bg: "#e65c00", text: "#ffffff", sub: "" },
-                      { name: "SATTVA", bg: "#1b4332", text: "#ffffff", sub: "Group" },
-                      { name: "BRIGADE", bg: "#003087", text: "#ffffff", sub: "Group" },
-                      { name: "TVS", bg: "#c8102e", text: "#ffffff", sub: "Emerald" },
-                      { name: "CENTURY", bg: "#4a0e8f", text: "#ffffff", sub: "Real Estate" },
-                      { name: "EMBASSY", bg: "#b8860b", text: "#ffffff", sub: "Group" },
-                      { name: "DNR", bg: "#1a1a1a", text: "#ffffff", sub: "Corp" },
+                      { name: "Prestige", sub: "Group", bg: "#fff", text: "#1a1a2e", border: "#1a1a2e" },
+                      { name: "Sobha", sub: "Ltd.", bg: "#fff", text: "#b30000", border: "#b30000" },
+                      { name: "Puravankara", sub: "", bg: "#fff", text: "#e65c00", border: "#e65c00" },
+                      { name: "Sattva", sub: "Group", bg: "#fff", text: "#1b4332", border: "#1b4332" },
+                      { name: "Brigade", sub: "Group", bg: "#fff", text: "#003087", border: "#003087" },
+                      { name: "TVS", sub: "Emerald", bg: "#fff", text: "#c8102e", border: "#c8102e" },
+                      { name: "Century", sub: "Real Estate", bg: "#fff", text: "#4a0e8f", border: "#4a0e8f" },
+                      { name: "Embassy", sub: "Group", bg: "#fff", text: "#b8860b", border: "#b8860b" },
+                      { name: "DNR", sub: "Corp", bg: "#fff", text: "#1a1a1a", border: "#1a1a1a" },
+                      { name: "Lodha", sub: "Group", bg: "#fff", text: "#8B0000", border: "#8B0000" },
                     ].map((brand) => (
                       <div
                         key={brand.name}
-                        className="flex flex-col items-center justify-center px-2 py-3 rounded-xl shadow-sm hover:shadow-lg hover:scale-105 transition-all duration-200 cursor-default"
-                        style={{ background: brand.bg }}
+                        className="flex flex-col items-center justify-center px-2 py-3 rounded-xl bg-white hover:shadow-lg hover:scale-105 transition-all duration-200 cursor-default"
+                        style={{ border: `2px solid ${brand.border}` }}
                       >
-                        <span className="text-[11px] font-black tracking-widest text-center" style={{ color: brand.text }}>
+                        <span className="text-[11px] font-black tracking-widest text-center uppercase" style={{ color: brand.text }}>
                           {brand.name}
                         </span>
                         {brand.sub && (
-                          <span className="text-[9px] font-medium tracking-wider mt-0.5 opacity-80 text-center" style={{ color: brand.text }}>
+                          <span className="text-[9px] font-semibold tracking-wider mt-0.5 text-center" style={{ color: brand.text, opacity: 0.7 }}>
                             {brand.sub}
                           </span>
                         )}
