@@ -386,32 +386,34 @@ export default function Home() {
                     <h4 className="text-sm font-bold text-green-800 uppercase tracking-[0.15em]">Authorised Channel Partner</h4>
                   </div>
                   <p className="text-gray-600 text-sm mb-5">Officially partnered with North Bangalore's most trusted developers</p>
-                  <div className="grid grid-cols-3 sm:grid-cols-5 gap-3">
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
                     {[
-                      { name: "Prestige", sub: "Group", bg: "#fff", text: "#1a1a2e", border: "#1a1a2e" },
-                      { name: "Sobha", sub: "Ltd.", bg: "#fff", text: "#b30000", border: "#b30000" },
-                      { name: "Puravankara", sub: "", bg: "#fff", text: "#e65c00", border: "#e65c00" },
-                      { name: "Sattva", sub: "Group", bg: "#fff", text: "#1b4332", border: "#1b4332" },
-                      { name: "Brigade", sub: "Group", bg: "#fff", text: "#003087", border: "#003087" },
-                      { name: "TVS", sub: "Emerald", bg: "#fff", text: "#c8102e", border: "#c8102e" },
-                      { name: "Century", sub: "Real Estate", bg: "#fff", text: "#4a0e8f", border: "#4a0e8f" },
-                      { name: "Embassy", sub: "Group", bg: "#fff", text: "#b8860b", border: "#b8860b" },
-                      { name: "DNR", sub: "Corp", bg: "#fff", text: "#1a1a1a", border: "#1a1a1a" },
-                      { name: "Lodha", sub: "Group", bg: "#fff", text: "#8B0000", border: "#8B0000" },
+                      { name: "Prestige", url: `${import.meta.env.BASE_URL}brands/prestige.png` },
+                      { name: "Sobha", url: `${import.meta.env.BASE_URL}brands/sobha.png` },
+                      { name: "Puravankara", url: `${import.meta.env.BASE_URL}brands/puravankara.png` },
+                      { name: "Sattva", url: `${import.meta.env.BASE_URL}brands/sattva.png` },
+                      { name: "Brigade", url: `${import.meta.env.BASE_URL}brands/brigade.png` },
+                      { name: "TVS Emerald", url: `${import.meta.env.BASE_URL}brands/tvs-emerald.png` },
+                      { name: "Century", url: `${import.meta.env.BASE_URL}brands/century.png` },
+                      { name: "Embassy", url: `${import.meta.env.BASE_URL}brands/embassy.png` },
+                      { name: "DNR", url: `${import.meta.env.BASE_URL}brands/dnr.png` },
+                      { name: "Lodha", url: `${import.meta.env.BASE_URL}brands/lodha.png` },
                     ].map((brand) => (
                       <div
                         key={brand.name}
-                        className="flex flex-col items-center justify-center px-2 py-3 rounded-xl bg-white hover:shadow-lg hover:scale-105 transition-all duration-200 cursor-default"
-                        style={{ border: `2px solid ${brand.border}` }}
+                        className="flex items-center justify-center p-3 rounded-2xl bg-white border-2 border-gray-100 hover:shadow-lg hover:scale-105 transition-all duration-200 cursor-default"
+                        style={{ height: "80px" }}
                       >
-                        <span className="text-[11px] font-black tracking-widest text-center uppercase" style={{ color: brand.text }}>
-                          {brand.name}
-                        </span>
-                        {brand.sub && (
-                          <span className="text-[9px] font-semibold tracking-wider mt-0.5 text-center" style={{ color: brand.text, opacity: 0.7 }}>
-                            {brand.sub}
-                          </span>
-                        )}
+                        <img
+                          src={brand.url}
+                          alt={brand.name}
+                          className="w-full h-full object-contain"
+                          onError={(e) => {
+                            const el = e.target as HTMLImageElement;
+                            el.style.display = "none";
+                            if (el.parentElement) el.parentElement.innerHTML = `<span style="font-size:13px;font-weight:900;color:#444;text-align:center;font-family:Georgia,serif;padding:4px;">${brand.name}</span>`;
+                          }}
+                        />
                       </div>
                     ))}
                   </div>

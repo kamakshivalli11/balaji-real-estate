@@ -1,0 +1,1646 @@
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US" prefix="og: https://ogp.me/ns#">
+
+
+
+
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>  Page not found</title>
+
+<link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+<link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+<link rel="dns-prefetch" href="https://www.clarity.ms" />
+<link rel="preconnect" href="https://www.googletagmanager.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link rel="preconnect" href="https://www.clarity.ms" />
+
+<!-- Preload Desktop Banner -->
+<link rel="preload" as="image" href="https://www.tvsemerald.com/wp-content/uploads/2021/11/udyana-thankyou-page-banner.webp">
+
+<!-- Preload Mobile Banner -->
+<link rel="preload" as="image" href="https://www.tvsemerald.com/wp-content/uploads/2021/11/udyana-thankyou-page-banner-1.webp">
+
+
+
+<link rel="preload" href="//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" as="script">
+
+<!-- <title></title> -->
+
+
+
+
+
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://www.tvsemerald.com/xmlrpc.php">
+
+<style>
+    .custom_navigation#main-slider .owl-nav,
+    .custom_navigation#project-main-slider .owl-nav {
+        /* display: none !important; */
+    }
+
+    .custom_navigation#main-slider .owl-dots {
+        display: none !important;
+    }
+    .ubermenu-skin-white .ubermenu-item-level-0:hover > .ubermenu-target, .ubermenu-skin-white .ubermenu-item-level-0.ubermenu-active > .ubermenu-target {background: #8ab300 !important;}
+</style>
+
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+
+
+<!-- Poppins -->
+
+
+
+<!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" /> -->
+
+
+<!-- <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> -->
+
+<!-- Montserrat And Playfair Display -->
+<!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> -->
+
+<!-- Optional, if we want the stylesheet to get preloaded. Note that this line causes stylesheet to get downloaded, but not applied to the page. Use strategically — while preloading will push this resource up the priority list, it may cause more important resources to be pushed down the priority list. This may not be the desired effect for non-critical CSS, depending on other resources your app needs. -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link rel="preload" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" as="style">
+<link rel="preload" href="//fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+<!-- Media type (print) doesn't match the current environment, so browser decides it's not that important and loads the stylesheet asynchronously (without delaying page rendering). On load, we change media type so that the stylesheet gets applied to screens. -->
+<link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="print" onload="this.onload=null;this.removeAttribute('media');">
+
+
+<!-- Fallback that only gets inserted when JavaScript is disabled, in which case we can't load CSS asynchronously. -->
+<noscript>
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</noscript>
+<noscript>
+    <link href="//fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" type="text/css" />
+</noscript>
+
+
+<!--  -->
+
+
+
+
+<!-- Ropa -->
+<!-- <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet"> -->
+
+
+
+<!-- =========== Fonts =========== -->
+    <script type="text/javascript">
+        let agg = navigator.userAgent;
+        var __ac_ = agg.includes("Lighthouse");
+    </script>
+    <script type="text/javascript">
+        scripts_loaded = false;
+        class RocketLazyLoadScripts {
+            constructor(e) {
+                this.triggerEvents = e, this.eventOptions = {
+                    passive: !0
+                }, this.userEventListener = this.triggerListener.bind(this), this.delayedScripts = {
+                    normal: [],
+                    async: [],
+                    defer: []
+                }, this.allJQueries = []
+            }
+            _addUserInteractionListener(e) {
+                this.triggerEvents.forEach(t => window.addEventListener(t, e.userEventListener, e.eventOptions))
+            }
+            _removeUserInteractionListener(e) {
+                this.triggerEvents.forEach(t => window.removeEventListener(t, e.userEventListener, e.eventOptions))
+            }
+            triggerListener() {
+                this._removeUserInteractionListener(this), "loading" === document.readyState ? document.addEventListener("DOMContentLoaded", this._loadEverythingNow.bind(this)) : this._loadEverythingNow()
+            }
+            async _loadEverythingNow() {
+                if (!scripts_loaded) {
+                    scripts_loaded = true;
+                    console.log("loading now");
+                    this._delayEventListeners(), this._delayJQueryReady(this), this._handleDocumentWrite(), this._registerAllDelayedScripts(), this._preloadAllScripts(), await this._loadScriptsFromList(this.delayedScripts.normal), await this._loadScriptsFromList(this.delayedScripts.defer), await this._loadScriptsFromList(this.delayedScripts.async), await this._triggerDOMContentLoaded(), await this._triggerWindowLoad(), window.dispatchEvent(new Event("rocket-allScriptsLoaded"))
+                }
+            }
+            _registerAllDelayedScripts() {
+                document.querySelectorAll("script[type=rocketlazyloadscript]").forEach(e => {
+                    e.hasAttribute("src") ? e.hasAttribute("async") && !1 !== e.async ? this.delayedScripts.async.push(e) : e.hasAttribute("defer") && !1 !== e.defer || "module" === e.getAttribute("data-rocket-type") ? this.delayedScripts.defer.push(e) : this.delayedScripts.normal.push(e) : this.delayedScripts.normal.push(e)
+                })
+            }
+            async _transformScript(e) {
+                return await this._requestAnimFrame(), new Promise(t => {
+                    const n = document.createElement("script");
+                    let i;
+                    [...e.attributes].forEach(e => {
+                        let t = e.nodeName;
+                        "type" !== t && ("data-rocket-type" === t && (t = "type", i = e.nodeValue), n.setAttribute(t, e.nodeValue))
+                    }), e.hasAttribute("src") ? (n.addEventListener("load", t), n.addEventListener("error", t)) : (n.text = e.text, t()), e.parentNode.replaceChild(n, e)
+                })
+            }
+            async _loadScriptsFromList(e) {
+                const t = e.shift();
+                return t ? (await this._transformScript(t), this._loadScriptsFromList(e)) : Promise.resolve()
+            }
+            _preloadAllScripts() {
+                var e = document.createDocumentFragment();
+                [...this.delayedScripts.normal, ...this.delayedScripts.defer, ...this.delayedScripts.async].forEach(t => {
+                    const n = t.getAttribute("src");
+                    if (n) {
+                        const t = document.createElement("link");
+                        t.href = n, t.rel = "preload", t.as = "script", e.appendChild(t)
+                    }
+                }), document.head.appendChild(e)
+            }
+            _delayEventListeners() {
+                let e = {};
+
+                function t(t, n) {
+                    ! function(t) {
+                        function n(n) {
+                            return e[t].eventsToRewrite.indexOf(n) >= 0 ? "rocket-" + n : n
+                        }
+                        e[t] || (e[t] = {
+                            originalFunctions: {
+                                add: t.addEventListener,
+                                remove: t.removeEventListener
+                            },
+                            eventsToRewrite: []
+                        }, t.addEventListener = function() {
+                            arguments[0] = n(arguments[0]), e[t].originalFunctions.add.apply(t, arguments)
+                        }, t.removeEventListener = function() {
+                            arguments[0] = n(arguments[0]), e[t].originalFunctions.remove.apply(t, arguments)
+                        })
+                    }(t), e[t].eventsToRewrite.push(n)
+                }
+
+                function n(e, t) {
+                    let n = e[t];
+                    Object.defineProperty(e, t, {
+                        get: () => n || function() {},
+                        set(i) {
+                            e["rocket" + t] = n = i
+                        }
+                    })
+                }
+                t(document, "DOMContentLoaded"), t(window, "DOMContentLoaded"), t(window, "load"), t(window, "pageshow"), t(document, "readystatechange"), n(document, "onreadystatechange"), n(window, "onload"), n(window, "onpageshow")
+            }
+            _delayJQueryReady(e) {
+                let t = window.jQuery;
+                Object.defineProperty(window, "jQuery", {
+                    get: () => t,
+                    set(n) {
+                        if (n && n.fn && !e.allJQueries.includes(n)) {
+                            n.fn.ready = n.fn.init.prototype.ready = function(t) {
+                                e.domReadyFired ? t.bind(document)(n) : document.addEventListener("rocket-DOMContentLoaded", () => t.bind(document)(n))
+                            };
+                            const t = n.fn.on;
+                            n.fn.on = n.fn.init.prototype.on = function() {
+                                if (this[0] === window) {
+                                    function e(e) {
+                                        return e.split(" ").map(e => "load" === e || 0 === e.indexOf("load.") ? "rocket-jquery-load" : e).join(" ")
+                                    }
+                                    "string" == typeof arguments[0] || arguments[0] instanceof String ? arguments[0] = e(arguments[0]) : "object" == typeof arguments[0] && Object.keys(arguments[0]).forEach(t => {
+                                        delete Object.assign(arguments[0], {
+                                            [e(t)]: arguments[0][t]
+                                        })[t]
+                                    })
+                                }
+                                return t.apply(this, arguments), this
+                            }, e.allJQueries.push(n)
+                        }
+                        t = n
+                    }
+                })
+            }
+            async _triggerDOMContentLoaded() {
+                this.domReadyFired = !0, await this._requestAnimFrame(), document.dispatchEvent(new Event("rocket-DOMContentLoaded")), await this._requestAnimFrame(), window.dispatchEvent(new Event("rocket-DOMContentLoaded")), await this._requestAnimFrame(), document.dispatchEvent(new Event("rocket-readystatechange")), await this._requestAnimFrame(), document.rocketonreadystatechange && document.rocketonreadystatechange()
+            }
+            async _triggerWindowLoad() {
+                await this._requestAnimFrame(), window.dispatchEvent(new Event("rocket-load")), await this._requestAnimFrame(), window.rocketonload && window.rocketonload(), await this._requestAnimFrame(), this.allJQueries.forEach(e => e(window).trigger("rocket-jquery-load")), window.dispatchEvent(new Event("rocket-pageshow")), await this._requestAnimFrame(), window.rocketonpageshow && window.rocketonpageshow()
+            }
+            _handleDocumentWrite() {
+                const e = new Map;
+                document.write = document.writeln = function(t) {
+                    const n = document.currentScript,
+                        i = document.createRange(),
+                        r = n.parentElement;
+                    let o = e.get(n);
+                    void 0 === o && (o = n.nextSibling, e.set(n, o));
+                    const a = document.createDocumentFragment();
+                    i.setStart(a, 0), a.appendChild(i.createContextualFragment(t)), r.insertBefore(a, o)
+                }
+            }
+            async _requestAnimFrame() {
+                return new Promise(e => requestAnimationFrame(e))
+            }
+            static run(forceLoad) {
+                const e = new RocketLazyLoadScripts(["keydown", "mousemove", "touchmove", "touchstart", "touchend", "wheel"]);
+                if (forceLoad == 'force') {
+                    e._loadEverythingNow();
+                    return;
+                }
+                e._addUserInteractionListener(e);
+            }
+        }
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            if (!__ac_) {
+                RocketLazyLoadScripts.run();
+            }
+            if (!__ac_) {
+                /* optimisation code 1*/
+                // lzyCSS(bsURL+'/assets/css/fonts.css');
+
+
+                                    lzyCSS(bsURL + '/assets/css/fonts-Montserrat.css');
+                    lzyCSS(bsURL + '/assets/css/semantic.min.css');
+                    lzyCSS(bsURL + '/assets/css/jquery.datetimepicker.min.css');
+                    // lzyCSS(bsURL + '/assets/css/fixedsticky.css');
+                    lzyCSS(bsURL + '/assets/css/jquery.fancybox.min.css');
+                
+                                    lzyCSS(bsURL + '/assets/css/animate.css');
+                    lzyCSS(bsURL + '/assets/css/intlTelInput.css');
+                    lzyCSS(bsURL + '/assets/css/aos.css');
+                    lzyCSS(bsURL + '/assets/css/magnific-popup.css');
+                    lzyCSS(bsURL + '/assets/css/ohsnap.css');
+                
+                setTimeout(function() {
+                    if (!scripts_loaded) {
+                        RocketLazyLoadScripts.run('force');
+                    }
+                }, 500);
+            }
+
+        }
+    </script>
+<!-- optimisation code 3 -->
+<script>
+    var bsURL = 'https://www.tvsemerald.com/wp-content/themes/tvs';
+    var lzyCSS = function(href) {
+        var l = document.createElement('link');
+        l.rel = 'stylesheet';
+        l.href = href;
+        var h = document.getElementsByTagName('head')[0];
+        h.appendChild(l);
+    };
+</script>
+<!-- optimisation code 2 -->
+
+<!-- <link href="/wp-content/themes/tvs/assets/css/fonts.css" rel="stylesheet" /> -->
+<!-- <link href="/wp-content/themes/tvs/assets/css/fonts-Montserrat.css" rel="stylesheet" /> -->
+<!-- <link href="/wp-content/themes/tvs/assets/css/semantic.min.css" rel="stylesheet" /> -->
+
+    <link href="/wp-content/themes/tvs/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- <link href="//cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" /> -->
+
+<link href="/wp-content/themes/tvs/assets/css/owl.carousel.min.css" rel="stylesheet" />
+
+    <link href="/wp-content/themes/tvs/style.css?4373645" rel="stylesheet" />
+    <link href="/wp-content/themes/tvs/assets/css/style.css?213833" rel="stylesheet" />
+    <!-- <link href="/wp-content/themes/tvs/assets/css/minify-style.css" rel="stylesheet" /> -->
+
+
+
+    <link rel="shortcut icon" href="/wp-content/themes/tvs/images/fevicon-tvs.jpg" />
+    <link rel="apple-touch-icon" sizes="32x32" href="/wp-content/themes/tvs/images/fevicon-tvs.jpg" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/wp-content/themes/tvs/images/fevicon-tvs.jpg" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/wp-content/themes/tvs/images/fevicon-tvs.jpg" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/wp-content/themes/tvs/images/fevicon-tvs.jpg" />
+
+
+		<!-- All in One SEO 4.7.7 - aioseo.com -->
+	<meta name="robots" content="noindex" />
+	<meta name="generator" content="All in One SEO (AIOSEO) 4.7.7" />
+		<script type="application/ld+json" class="aioseo-schema">
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/www.tvsemerald.com\/img\/tvs-logo.png\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/www.tvsemerald.com\/#listItem","position":1,"name":"Home","item":"https:\/\/www.tvsemerald.com\/","nextItem":{"@type":"ListItem","@id":"https:\/\/www.tvsemerald.com\/img\/tvs-logo.png\/#listItem","name":"Not Found"}},{"@type":"ListItem","@id":"https:\/\/www.tvsemerald.com\/img\/tvs-logo.png\/#listItem","position":2,"name":"Not Found","previousItem":{"@type":"ListItem","@id":"https:\/\/www.tvsemerald.com\/#listItem","name":"Home"}}]},{"@type":"Organization","@id":"https:\/\/www.tvsemerald.com\/#organization","name":"TVS Emerald","description":"TVS Emerald","url":"https:\/\/www.tvsemerald.com\/"},{"@type":"WebPage","@id":"https:\/\/www.tvsemerald.com\/img\/tvs-logo.png\/#webpage","url":"https:\/\/www.tvsemerald.com\/img\/tvs-logo.png\/","inLanguage":"en-US","isPartOf":{"@id":"https:\/\/www.tvsemerald.com\/#website"},"breadcrumb":{"@id":"https:\/\/www.tvsemerald.com\/img\/tvs-logo.png\/#breadcrumblist"}},{"@type":"WebSite","@id":"https:\/\/www.tvsemerald.com\/#website","url":"https:\/\/www.tvsemerald.com\/","name":"TVS Emerald","description":"TVS Emerald","inLanguage":"en-US","publisher":{"@id":"https:\/\/www.tvsemerald.com\/#organization"}}]}
+		</script>
+		<!-- All in One SEO -->
+
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="TVS Emerald &raquo; Feed" href="https://www.tvsemerald.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="TVS Emerald &raquo; Comments Feed" href="https://www.tvsemerald.com/comments/feed/" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='dslc-fontawesome-css' href='https://www.tvsemerald.com/wp-content/plugins/live-composer-page-builder/css/font-awesome.css?ver=1.5.42' media='all' />
+<link rel='stylesheet' id='dslc-plugins-css-css' href='https://www.tvsemerald.com/wp-content/plugins/live-composer-page-builder/css/dist/frontend.plugins.min.css?ver=1.5.42' media='all' />
+<link rel='stylesheet' id='dslc-frontend-css-css' href='https://www.tvsemerald.com/wp-content/plugins/live-composer-page-builder/css/dist/frontend.min.css?ver=1.5.42' media='all' />
+<link rel='stylesheet' id='ubermenu-css' href='https://www.tvsemerald.com/wp-content/plugins/ubermenu/pro/assets/css/ubermenu.min.css?ver=3.7.4' media='all' />
+<link rel='stylesheet' id='ubermenu-white-css' href='https://www.tvsemerald.com/wp-content/plugins/ubermenu/pro/assets/css/skins/white.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='ubermenu-font-awesome-all-css' href='https://www.tvsemerald.com/wp-content/plugins/ubermenu/assets/fontawesome/css/all.min.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='ald-styles-css' href='https://www.tvsemerald.com/wp-content/plugins/ajax-load-more-anything/assets/styles.min.css?ver=3.3.8' media='all' />
+<script   id="jquery-js" src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="https://api.w.org/" href="https://www.tvsemerald.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.tvsemerald.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.0" />
+<style id="ubermenu-custom-generated-css">
+/** Font Awesome 4 Compatibility **/
+.fa{font-style:normal;font-variant:normal;font-weight:normal;font-family:FontAwesome;}
+
+/* Status: Loaded from Transient */
+
+</style><style type="text/css">.dslc-modules-section-wrapper, .dslca-add-modules-section { width : 1180px; } .dslc-modules-section:not(.dslc-full) { padding-left: 4%;  padding-right: 4%; } .dslc-modules-section { margin-left:0%;margin-right:0%;margin-bottom:0px;padding-bottom:80px;padding-top:80px;padding-left:0%;padding-right:0%;background-image:none;background-repeat:repeat;background-position:left top;background-attachment:scroll;background-size:auto;border-width:0px;border-style:solid; }</style><link rel="icon" href="https://www.tvsemerald.com/wp-content/uploads/2021/10/cropped-fevicon-tvs-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://www.tvsemerald.com/wp-content/uploads/2021/10/cropped-fevicon-tvs-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.tvsemerald.com/wp-content/uploads/2021/10/cropped-fevicon-tvs-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://www.tvsemerald.com/wp-content/uploads/2021/10/cropped-fevicon-tvs-270x270.jpg" />
+<style id="wp-custom-css">
+body.page-template-projects-category-list-page .header .brand-logo a img.blue_logo {
+    display: block;
+}
+body.page-template-projects-category-list-page .header .brand-logo a img.white_logo {
+    display: none;
+}
+</style>
+<style type="text/css">.faq-box-wrapper .Accordion_item,.offer-page .box-wrapper-offer{display:none}.btn.loadMoreBtn{color:#333;text-align:center}.btn.loadMoreBtn:hover{text-decoration:none}</style>
+    <link rel="shortcut icon" href="/wp-content/themes/tvs/images/fevicon-tvs.jpg" />
+    <link rel="apple-touch-icon" sizes="32x32" href="/wp-content/themes/tvs/images/fevicon-tvs.jpg" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/wp-content/themes/tvs/images/fevicon-tvs.jpg" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/wp-content/themes/tvs/images/fevicon-tvs.jpg" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/wp-content/themes/tvs/images/fevicon-tvs.jpg" />
+
+<!-- Google Tag Manager -->
+
+<!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+})(window,document,'script','dataLayer','GTM-THRNLCF'); console.log('Google Tag Manager fired'); </script> -->
+
+<!-- End Google Tag Manager -->
+
+    
+
+    <!-- Google Tag Manager -->
+
+    <script type="rocketlazyloadscript" async>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start':
+
+                    new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+
+        })(window, document, 'script', 'dataLayer', 'GTM-THRNLCF');
+
+        function generateRandomNumber() {
+            return Math.floor(1000000000 + Math.random() * 9000000000);
+        }
+
+        const randomNumber = generateRandomNumber();
+
+        let uniqueID = localStorage.getItem("unqiueId");
+
+        if (uniqueID == null) {
+            uniqueID = randomNumber;
+            localStorage.setItem("unqiueId", randomNumber);
+        }
+        // dataLayer.push({ user_id: uniqueID });
+
+        dataLayer.push({
+            'event': 'Visit',
+            'user_id': uniqueID
+        });
+    </script>
+
+    <!-- End Google Tag Manager -->
+
+    <!-- triggering after page load added on 21 Mar 2022 5:10PM -->
+    <!-- <script async>
+            // microsoft clarity
+            (function(c, l, a, r, i, t, y) {
+                c[a] = c[a] || function() {
+                    (c[a].q = c[a].q || []).push(arguments)
+                };
+                t = l.createElement(r);
+                t.async = 1;
+                t.src = "https://www.clarity.ms/tag/" + i;
+                y = l.getElementsByTagName(r)[0];
+                y.parentNode.insertBefore(t, y);
+            })(window, document, "clarity", "script", "9l1p3hitsk");
+
+            console.log('microsoft clarity fired');
+        </script> -->
+
+
+
+<!-- Edit on 17-01-2022 -->
+<script type="text/javascript" src='//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script>
+<script>
+    $(document).ready(function() {
+            var Page_link = window.location.href;
+            var project_name = $(".project-top-banner-section h1").text();
+            var project_Id = $("div#page-id").text();
+            if ($("#main-slider").length > 0 || $("#main-mobile-slider").length > 0 || $("#project-main-mobile-slider").length > 0) {
+                // debugger;
+                ___owl = $("#main-slider, #main-mobile-slider, #project-main-mobile-slider").owlCarousel({
+                    responsiveClass: !0,
+                    lazyLoad: true,
+                    items: 1,
+                    autoplay: true,
+                    // animateOut: 'slideOutUp',
+                    mouseDrag: false,
+                    touchDrag: false,
+                    smartSpeed: 2e3,
+                    autoplayHoverPause: true,
+                    autoplayTimeout: 10000,
+                    navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+                    nav: !0,
+                    dots: true,
+                    rewind: true,
+                    loop: false,
+                    // autoHeight:false,
+                    responsive: {
+                        0: {
+                            items: 1,
+                            mouseDrag: true,
+                            touchDrag: true,
+                        },
+                        600: {
+                            items: 1,
+                        },
+                        1000: {
+                            items: 1,
+                        },
+                    },
+                });
+            }
+
+            var item_count = parseInt($("#main-slider").find('.item').length);
+
+            if (item_count <= 1) {
+                $(".custom_navigation#main-slider .owl-nav").hide();
+            } else {
+                $(".custom_navigation#main-slider .owl-nav").show();
+            }
+
+            var item_count = parseInt($("#main-mobile-slider").find('.item').length);
+
+            if (item_count <= 1) {
+                $(".custom_navigation#main-mobile-slider .owl-nav").hide();
+            } else {
+                $(".custom_navigation#main-mobile-slider .owl-nav").show();
+            }
+
+            var project_Id = $("div#page-id").text();
+            $("#project-main-slider").owlCarousel({
+
+                responsiveClass: true,
+                lazyLoad: true,
+                items: 1,
+                autoplay: true,
+                // animateOut: 'slideOutUp',
+                // mouseDrag: false,
+                // touchDrag: false,
+                smartSpeed: 2e3,
+                autoplayTimeout: 6000,
+                autoplayHoverPause: true,
+                paginationSpeed: 3e3,
+                navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+                nav: true,
+                dots: false,
+                rewind: true,
+                loop: false,
+                // autoHeight:true,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    600: {
+                        items: 1,
+                    },
+                    1000: {
+                        items: 1,
+                    },
+                },
+            });
+
+            if ($("#project-main-slider .item").length == 1) {
+                $(".custom_navigation#project-main-slider .owl-prev").slideUp();
+                $(".custom_navigation#project-main-slider .owl-next").slideUp()
+            }
+
+
+        });
+    </script>
+
+
+<!-- Edit on 17-01-2022 -->
+<!-- Trigger GTM & other codes Asynchronously -->
+<style type="text/css">
+    
+    .lazy {
+        /*display: none;*/
+        width: 100px;
+        height: 100px;
+    }
+
+    .lazy.loaded {
+        width: auto;
+        height: auto;
+    }
+
+    .brand-logo a img {
+        height: auto;
+    }
+
+    .about-us-wrapper {
+        padding: 80px 0px;
+    }
+
+    .banner-wrapper {
+        min-height: auto;
+    }
+
+    @media (max-width: 768px) {
+        .banner-wrapper {
+            min-height: 220px;
+        }
+
+        .space-pd {
+            padding: 5vh 0px;
+            /*padding-top: 0;*/
+        }
+
+        .about-us-wrapper {
+            padding: 30px 0px;
+        }
+    }
+</style>
+
+
+<script>
+    $(document).ready(function() {
+        $("#menu-item-1553 a").first().attr("id", "about-us_page_Menu")
+        $("#menu-item-1557 a").first().attr("id", "project_page_Menu")
+        $("#menu-item-1611 a").first().attr("id", "click_to_Call")
+    })
+</script>
+
+
+
+<!-- Data Layer | By TVS Motor Team -->
+<!-- DataLayer -->
+<!-- DataLayer -->
+<script type="text/javascript" src="//cdn.evgnet.com/beacon/tvsmotorcompanyltd/emerald_prod/scripts/evergage.min.js"></script>
+<!-- Data Layer | By TVS Motor Team -->
+
+<style>
+
+    div#footer-widget-area .chw-widget ul li.wp-social-link {
+        background: transparent;
+    }
+
+    div#footer-widget-area .chw-widget ul.wp-block-social-links li a{
+        width: 25px !important;
+    }
+    
+    /* Download Brochure FOrm */
+    #download-brochure form.primary_form_style input {
+        margin-bottom: 5px;
+    }
+
+    #download-brochure form.primary_form_style select {
+        margin-bottom: 5px;
+    }
+
+    #download-brochure {
+        border-radius: 3px;
+        overflow: hidden;
+        padding: 0px;
+    }
+
+    #download-brochure .inner_form {
+        padding: 10px 20px;
+    }
+
+    #download-brochure .thumnail_image img {
+        height: 140px !important;
+        width: 100% !important;
+        object-fit: cover;
+    }
+
+    #download-brochure .download_status p {
+        font-size: 11px;
+        margin: 0px 0px 0px;
+        text-align: center;
+    }
+
+    .download_brochure_submit_btn {
+        position: relative;
+    }
+
+    .download_brochure_submit_btn button[type='submit'] {
+        width: 100%;
+        background: #8ab300;
+        padding: 10px 15px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        color: #fff;
+        margin-bottom: 1rem;
+    }
+
+    .download_brochure_submit_btn img {
+        width: 17px !important;
+        position: relative;
+    }
+
+    .header_section_form {
+        margin: 5px 0px 15px;
+        text-align: center;
+    }
+
+    .header_section_form h2 {
+        margin: 0px;
+    }
+
+    .header_section_form p {
+        font-size: 15px;
+    }
+
+    .mfp-close-btn-in #download-brochure .mfp-close {
+        background: #f60000 !important;
+        color: #fff !important;
+        opacity: 1 !important;
+        top: 0px;
+        right: 0px;
+    }
+
+    /* Download Brochure FOrm */
+    #main-slider .read_more_text {
+        position: absolute;
+        top: 50%;
+        right: 16%;
+    }
+
+    #main-slider .read_more_text a {
+        background: #8ab300;
+        padding: 10px 20px;
+        display: inline-block;
+        color: #fff;
+    }
+
+
+
+    @media(max-width:650px) {
+        #main-slider .read_more_text {
+            position: absolute;
+            top: auto;
+            right: 0px;
+            left: 0px;
+            margin: auto;
+            text-align: center;
+            bottom: 18%;
+        }
+    }
+</style>
+</head>
+
+<!-- Fixed Bar Main Classes -->
+
+
+            <body class="error404 wp-theme-tvs fixed-header-on">
+                <!-- Fixed Bar Main Classes -->
+
+        <!-- Google Tag Manager (noscript) -->
+
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THRNLCF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+        <!-- End Google Tag Manager (noscript) -->
+
+
+
+
+        <div id="dslc-content" class="dslc-content dslc-clearfix">
+        <!-- Start header -->
+        <header id="header" class="header">
+            <div class="container">
+                <!-- Start header-container -->
+                <div class="header-wrapper">
+                    <div class="brand-logo">
+                                                    <a href="https://www.tvsemerald.com"><img src="https://www.tvsemerald.com/wp-content/themes/tvs/assets/images/logo-header.png" alt="TVS Emerald logo Image" class="skip-lazy blue_logo" width="129" height="80" loading="lazy"></a>
+                            <a href="https://www.tvsemerald.com"><img src="https://www.tvsemerald.com/wp-content/themes/tvs/assets/images/logo-header-white.webp" alt="TVS Emerald logo Image" class="skip-lazy white_logo" width="129" height="80" loading="lazy"></a>
+                        
+                    </div>
+                    <div class="login-button hidden visible-xs visible-sm">
+                        <!-- <ul>
+                                                    <li class="login-button hidden" ><a href="user/">
+                                                            </a></li>
+                        
+                        <li class="hidden"><a href="#login-popup" class="popup-inline"><img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="/assets/images/login-tvs-blue.svg" alt="" title="Login"></a></li>
+
+                                        
+                    </ul> -->
+                    </div>
+                    <div class="right-menu-box mobile-flex-for-mobile">
+
+                        <div class="mobile-call-btn visible-xs visible-sm">
+                            <!-- <li class="get_ip_click"><a class="bg-blue border-menu-blue" href="tel:+918062195010"><i class="fa fa-phone" aria-hidden="true"></i></a></li> -->
+                             <li class="get_ip_click">
+                                <a class="bg-blue border-menu-blue" href="tel:+918062195010">
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </div>
+
+                        <ul class="flex-both-center">
+
+
+                                                            
+<!-- UberMenu [Configuration:main] [Theme Loc:primary-menu] [Integration:api] -->
+<button class="ubermenu-responsive-toggle ubermenu-responsive-toggle-main ubermenu-skin-white ubermenu-loc-primary-menu ubermenu-responsive-toggle-content-align-left ubermenu-responsive-toggle-align-full ubermenu-responsive-toggle-close-icon-times " tabindex="0" data-ubermenu-target="ubermenu-main-23-primary-menu-2"><i class="fas fa-bars" ></i>Menu</button><nav id="ubermenu-main-23-primary-menu-2" class="ubermenu ubermenu-nojs ubermenu-main ubermenu-menu-23 ubermenu-loc-primary-menu ubermenu-responsive ubermenu-responsive-single-column ubermenu-responsive-single-column-subs ubermenu-responsive-default ubermenu-mobile-modal ubermenu-mobile-accordion ubermenu-responsive-collapse ubermenu-horizontal ubermenu-transition-shift ubermenu-trigger-hover_intent ubermenu-skin-white  ubermenu-bar-align-center ubermenu-items-align-auto ubermenu-disable-submenu-scroll ubermenu-sub-indicators ubermenu-retractors-responsive ubermenu-submenu-indicator-closes"><ul id="ubermenu-nav-main-23-primary-menu" class="ubermenu-nav" data-title="Primary Menu"><li id="menu-item-1553" class="about_us_menu ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-1553 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-flyout" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">About Us</span><i class='ubermenu-sub-indicator fas fa-angle-down'></i></a><ul  class="ubermenu-submenu ubermenu-submenu-id-1553 ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item"  ><li id="menu-item-1554" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-1554 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.tvsemerald.com/about-us/"><span class="ubermenu-target-title ubermenu-target-text">TVS Emerald</span></a></li><li id="menu-item-1555" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-1555 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.tvsemerald.com/tvs-group-legacy/"><span class="ubermenu-target-title ubermenu-target-text">TVS Group Legacy</span></a></li><li id="menu-item-1556" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-1556 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.tvsemerald.com/management-team/"><span class="ubermenu-target-title ubermenu-target-text">Management Team</span></a></li><li id="menu-item-2441" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-2441 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.tvsemerald.com/contact-us/"><span class="ubermenu-target-title ubermenu-target-text">Contact Us</span></a></li></ul></li><li id="menu-item-1557" class="project_menu ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-1557 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-flyout ubermenu-submenu-rtl ubermenu-submenu-reverse" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Projects</span><i class='ubermenu-sub-indicator fas fa-angle-down'></i></a><ul  class="ubermenu-submenu ubermenu-submenu-id-1557 ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-right_edge_item"  ><li id="menu-item-4634" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-4634 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-drop ubermenu-has-submenu-flyout" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"><span class="ubermenu-target-title ubermenu-target-text">Pre-launching</span><i class='ubermenu-sub-indicator fas fa-angle-down'></i></a><ul  class="ubermenu-submenu ubermenu-submenu-id-4634 ubermenu-submenu-type-auto ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item"  ><li id="menu-item-7652" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-dslc_projects ubermenu-item-7652 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.tvsemerald.com/projects/tvs-emerald-altura/"><span class="ubermenu-target-title ubermenu-target-text">Altura, Yelahanka, Bagalur Main Road</span></a></li></ul></li><li id="menu-item-1627" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-1627 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-drop ubermenu-has-submenu-flyout" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"><span class="ubermenu-target-title ubermenu-target-text">Under Construction</span><i class='ubermenu-sub-indicator fas fa-angle-down'></i></a><ul  class="ubermenu-submenu ubermenu-submenu-id-1627 ubermenu-submenu-type-auto ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item"  ><li id="menu-item-7125" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-dslc_projects ubermenu-item-7125 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.tvsemerald.com/projects/tvs-emerald-auralis/"><span class="ubermenu-target-title ubermenu-target-text">Auralis, Thanisandra, Bengaluru</span></a></li><li id="menu-item-5433" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-dslc_projects ubermenu-item-5433 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.tvsemerald.com/projects/tvs-emerald-udyana/"><span class="ubermenu-target-title ubermenu-target-text">Udyana, Medavakkam, Chennai</span></a></li><li id="menu-item-6712" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-dslc_projects ubermenu-item-6712 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.tvsemerald.com/projects/tvs-emerald-verde-vista/"><span class="ubermenu-target-title ubermenu-target-text">Verde Vista, Padur, Chennai</span></a></li><li id="menu-item-4727" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-dslc_projects ubermenu-item-4727 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.tvsemerald.com/projects/tvs-emerald-luxor/"><span class="ubermenu-target-title ubermenu-target-text">Luxor, Behind VR Mall, Chennai</span></a></li><li id="menu-item-6077" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-dslc_projects ubermenu-item-6077 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.tvsemerald.com/projects/tvs-emerald-cascadia/"><span class="ubermenu-target-title ubermenu-target-text">Cascadia, Mission Road, Bengaluru</span></a></li><li id="menu-item-7182" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-7182 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.tvsemerald.com/projects/tvs-emerald-serene-springs/"><span class="ubermenu-target-title ubermenu-target-text">Serene Springs, OMR, Chennai</span></a></li></ul></li><li id="menu-item-1628" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-1628 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-drop ubermenu-has-submenu-flyout" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"><span class="ubermenu-target-title ubermenu-target-text">Ready to Move In / Build</span><i class='ubermenu-sub-indicator fas fa-angle-down'></i></a><ul  class="ubermenu-submenu ubermenu-submenu-id-1628 ubermenu-submenu-type-auto ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item"  ><li id="menu-item-1616" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-dslc_projects ubermenu-item-1616 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.tvsemerald.com/projects/tvs-emerald-atrium/"><span class="ubermenu-target-title ubermenu-target-text">Atrium, Perunagalathur, Chennai</span></a></li><li id="menu-item-1623" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-dslc_projects ubermenu-item-1623 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.tvsemerald.com/projects/tvs-emerald-hamlet/"><span class="ubermenu-target-title ubermenu-target-text">Hamlet, OMR, Chennai</span></a></li></ul></li><li id="menu-item-1629" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-1629 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-drop ubermenu-has-submenu-flyout" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"><span class="ubermenu-target-title ubermenu-target-text">Sold Out</span><i class='ubermenu-sub-indicator fas fa-angle-down'></i></a><ul  class="ubermenu-submenu ubermenu-submenu-id-1629 ubermenu-submenu-type-auto ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item"  ><li id="menu-item-4635" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-dslc_projects ubermenu-item-4635 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.tvsemerald.com/projects/tvs-emerald-the-estate/"><span class="ubermenu-target-title ubermenu-target-text">The Estate, Bagalur, Near Sarjapur</span></a></li><li id="menu-item-5045" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-dslc_projects ubermenu-item-5045 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.tvsemerald.com/projects/tvs-emerald-lake-shore-siruseri/"><span class="ubermenu-target-title ubermenu-target-text">Lake Shore, Near Siruseri, Chennai</span></a></li><li id="menu-item-5884" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-5884 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.tvsemerald.com/projects/tvs-emerald-isle-of-trees/"><span class="ubermenu-target-title ubermenu-target-text">Isle of Trees, Rachenahalli, Bengaluru</span></a></li><li id="menu-item-3245" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-dslc_projects ubermenu-item-3245 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.tvsemerald.com/projects/tvs-emerald-aaranya/"><span class="ubermenu-target-title ubermenu-target-text">Aaranya, Medavakkam, Chennai</span></a></li><li id="menu-item-4380" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-dslc_projects ubermenu-item-4380 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.tvsemerald.com/projects/tvs-emerald-elements-kovilambakkam/"><span class="ubermenu-target-title ubermenu-target-text">Elements, Kovilambakkam, Chennai</span></a></li><li id="menu-item-3873" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-dslc_projects ubermenu-item-3873 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.tvsemerald.com/projects/tvs-emerald-harmony-at-green-enclave-porur/"><span class="ubermenu-target-title ubermenu-target-text">Green Enclave, Porur, Chennai</span></a></li><li id="menu-item-5507" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-5507 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" title="hidden" href="https://www.tvsemerald.com/projects/tvs-emerald-heartland-thaiyur/"><span class="ubermenu-target-title ubermenu-target-text">Heartland, Thaiyur, Chennai</span></a></li><li id="menu-item-5303" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-dslc_projects ubermenu-item-5303 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.tvsemerald.com/projects/tvs-emerald-jardin/"><span class="ubermenu-target-title ubermenu-target-text">Jardin, Singasandra, Bengaluru</span></a></li><li id="menu-item-1624" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-dslc_projects ubermenu-item-1624 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.tvsemerald.com/projects/tvs-emerald-lighthouse/"><span class="ubermenu-target-title ubermenu-target-text">LightHouse, Pallavaram, Chennai</span></a></li><li id="menu-item-1619" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-dslc_projects ubermenu-item-1619 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.tvsemerald.com/projects/tvs-emerald-greenacres/"><span class="ubermenu-target-title ubermenu-target-text">GreenAcres, Kolapakkam, Chennai</span></a></li><li id="menu-item-1621" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-dslc_projects ubermenu-item-1621 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.tvsemerald.com/projects/tvs-emerald-greenhills/"><span class="ubermenu-target-title ubermenu-target-text">GreenHills, Perungalathur, Chennai</span></a></li><li id="menu-item-1620" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-dslc_projects ubermenu-item-1620 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.tvsemerald.com/projects/tvs-emerald-villa-greenacres/"><span class="ubermenu-target-title ubermenu-target-text">GreenAcres Villas, Kolapakkam, Chennai</span></a></li><li id="menu-item-1622" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-dslc_projects ubermenu-item-1622 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.tvsemerald.com/projects/tvs-emerald-greenhills-villas/"><span class="ubermenu-target-title ubermenu-target-text">GreenHills Villas, Kolapakkam, Chennai</span></a></li><li id="menu-item-1625" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-dslc_projects ubermenu-item-1625 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.tvsemerald.com/projects/tvs-emerald-peninsula/"><span class="ubermenu-target-title ubermenu-target-text">Peninsula, Manapakkam, Chennai</span></a></li></ul></li></ul></li><li id="menu-item-4411" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-4411 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.tvsemerald.com/blog/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Blog</span></a></li><li id="menu-item-2998" class="hidden ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-2998 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-flyout" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Login</span><i class='ubermenu-sub-indicator fas fa-angle-down'></i></a><ul  class="ubermenu-submenu ubermenu-submenu-id-2998 ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item"  ><li id="menu-item-2999" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-2999 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" target="_blank" href="https://www.tvsemerald.com/emerald-assist/"><span class="ubermenu-target-title ubermenu-target-text">Existing Customer</span></a></li></ul></li><li id="menu-item-1610" class="online-booking-header-button border-menu hidden ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-1610 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" target="_blank" href="https://www.tvsemerald.com/pay-online/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Pay Online</span></a></li><li id="menu-item-1611" class="rotate-icon header-phone-number get_ip_click ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-1611 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left" href="tel:+918062195010" tabindex="0"><i class="ubermenu-icon fas fa-phone" ></i><span class="ubermenu-target-title ubermenu-target-text">+91 80621 95010/ 080 6219 5010</span></a></li></ul><div class="ubermenu-mobile-footer"><button class="ubermenu-mobile-close-button "><i class="fas fa-times"></i> Close</button></div></nav>
+<!-- End UberMenu -->
+                            
+                                                        <!-- <li class="login-button hidden hidden-xs hidden-sm" ><a href="user/">
+                                                            </a></li> -->
+                                                        <!-- <li class="login_hover_popup hidden hidden-xs hidden-sm"> -->
+                            <!-- <a href=""> -->
+                            <!-- <span>Login</span> -->
+
+                            <!-- <img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="/assets/images/login-tvs-blue.svg" alt="" title="Login"> -->
+
+                            <!-- <img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="/assets/images/login-tvs-blue.svg" alt="" title="Login"> -->
+                            <!-- </a> -->
+
+
+                            <!-- <span id="fwt-profile">
+                                <span id="fwt-profile-content">
+                                    <span id="fwt-profile-login-content" class="fwt-profile-content-container">
+                                        <p class="profile-header">Have an account?</p>
+                                        <a class="button-cta dark login-url" href="user/">Log In</a>
+                                        <ul>
+                                            <li><a href="user/?forgot_password">Forgot your password?</a></li>
+                                        </ul>
+                                    </span>
+                                    <span id="fwt-create-account-bar" class="fwt-profile-content-container">
+                                        <p class="profile-header">Need an account?</p>
+                                        <a class="button-cta light registration-url" href="user/?creat_account">Create an account</a>
+                                    </span>
+                                </span>
+                                <button value="Close Profile Menu" type="button" class="close-button" id="fwt-profile-close-button" aria-label="Close Profile Menu"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="122.878px" height="122.88px" viewBox="0 0 122.878 122.88" enable-background="new 0 0 122.878 122.88" xml:space="preserve"><g><path d="M1.426,8.313c-1.901-1.901-1.901-4.984,0-6.886c1.901-1.902,4.984-1.902,6.886,0l53.127,53.127l53.127-53.127 c1.901-1.902,4.984-1.902,6.887,0c1.901,1.901,1.901,4.985,0,6.886L68.324,61.439l53.128,53.128c1.901,1.901,1.901,4.984,0,6.886 c-1.902,1.902-4.985,1.902-6.887,0L61.438,68.326L8.312,121.453c-1.901,1.902-4.984,1.902-6.886,0 c-1.901-1.901-1.901-4.984,0-6.886l53.127-53.128L1.426,8.313L1.426,8.313z"/></g></svg></button>
+                            </span> -->
+
+                            <!-- </li> -->
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End header-container -->
+<div class="not-found-page">
+		<div class="align-center">
+			<h1><strong>404</strong></h1>
+			<p>The page you are looking for can not be found.</p>
+		</div>
+</div>
+
+
+
+</div>
+<footer class="bg_dark_blue space-pd-top">
+  <div class="container">
+    <div class="row after_green_border">
+      <div id="footer-widget-area" class="chw-widget-area widget-area" role="complementary">
+        <div class="chw-widget"><h2 class="chw-title">Corporate</h2><div class="menu-corporate-container"><ul id="menu-corporate" class="menu"><li id="menu-item-148" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-148"><a href="https://www.tvsemerald.com/about-us/">About TVS Emerald</a></li>
+<li id="menu-item-4084" class="hidden menu-item menu-item-type-post_type menu-item-object-page menu-item-4084"><a href="https://www.tvsemerald.com/pay-online/">Pay Online</a></li>
+<li id="menu-item-150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-150"><a href="https://www.tvsemerald.com/tvs-group-legacy/">TVS Group Legacy</a></li>
+<li id="menu-item-152" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-152"><a href="https://www.tvsemerald.com/management-team/">Management Team</a></li>
+<li id="menu-item-7630" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7630"><a href="https://www.tvsemerald.com/investors/">Investors</a></li>
+<li id="menu-item-2666" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2666"><a href="https://www.tvsemerald.com/news/">Media</a></li>
+</ul></div></div><div class="chw-widget"><h2 class="chw-title">Other</h2><div class="menu-other-container"><ul id="menu-other" class="menu"><li id="menu-item-187" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-187"><a href="https://www.tvsemerald.com/blog/">Blog</a></li>
+<li id="menu-item-2874" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2874"><a href="https://www.tvsemerald.com/glossary/">Glossary</a></li>
+<li id="menu-item-188" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-188"><a href="https://www.tvsemerald.com/disclaimer/">Disclaimer</a></li>
+<li id="menu-item-190" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-190"><a rel="privacy-policy" href="https://www.tvsemerald.com/privacy-policy/">Privacy policy</a></li>
+<li id="menu-item-191" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-191"><a href="https://www.tvsemerald.com/sitemap/">Sitemap</a></li>
+</ul></div></div><div class="chw-widget"><h2 class="chw-title">Customer Relations</h2><div class="menu-customer-relations-container"><ul id="menu-customer-relations" class="menu"><li id="menu-item-193" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-193"><a href="https://www.tvsemerald.com/buyers-guide/">Buyers Guide</a></li>
+<li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-195"><a href="https://www.tvsemerald.com/nri-buyers-guide/">NRI Buyers Guide</a></li>
+<li id="menu-item-6587" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6587"><a href="https://www.tvsemerald.com/lp/lnr/">Existing Customer Referral</a></li>
+</ul></div></div><div class="chw-widget"><h2 class="chw-title">Our Projects</h2><div class="menu-our-projects-container"><ul id="menu-our-projects" class="menu"><li id="menu-item-7691" class="menu-item menu-item-type-post_type menu-item-object-dslc_projects menu-item-7691"><a href="https://www.tvsemerald.com/projects/tvs-emerald-altura/">Altura, Yelahanka, Bagalur Main Road</a></li>
+<li id="menu-item-7145" class="menu-item menu-item-type-post_type menu-item-object-dslc_projects menu-item-7145"><a href="https://www.tvsemerald.com/projects/tvs-emerald-auralis/">Auralis, Thanisandra, Bengaluru</a></li>
+<li id="menu-item-6791" class="menu-item menu-item-type-post_type menu-item-object-dslc_projects menu-item-6791"><a href="https://www.tvsemerald.com/projects/tvs-emerald-verde-vista/">Verde Vista, OMR(Padur), Chennai</a></li>
+<li id="menu-item-5432" class="menu-item menu-item-type-post_type menu-item-object-dslc_projects menu-item-5432"><a href="https://www.tvsemerald.com/projects/tvs-emerald-udyana/">Udyana, Medavakkam, Chennai</a></li>
+<li id="menu-item-6430" class="menu-item menu-item-type-post_type menu-item-object-dslc_projects menu-item-6430"><a href="https://www.tvsemerald.com/projects/tvs-emerald-cascadia/">Cascadia, Mission Road, Bengaluru</a></li>
+<li id="menu-item-7183" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7183"><a href="https://www.tvsemerald.com/projects/tvs-emerald-serene-springs/">Serene Springs, OMR, Chennai</a></li>
+<li id="menu-item-4729" class="menu-item menu-item-type-post_type menu-item-object-dslc_projects menu-item-4729"><a href="https://www.tvsemerald.com/projects/tvs-emerald-luxor/">Luxor, Behind VR Mall, Chennai</a></li>
+</ul></div></div><div class="chw-widget"><h2 class="chw-title">Our Address</h2>
+<div>
+  <p style="color: rgb(255, 255, 255);font-size: 13px;padding: 5px 0px;line-height: 25px;"> TVS Emerald Corporate Office
+    <br> 4th Floor, Ispahani Centre, Nungambakkam High Rd, Thousand Lights, Chennai, Tamil Nadu 600034
+  </p>
+</div>
+
+<ul class="wp-block-social-links is-style-pill-shape is-layout-flex wp-block-social-links-is-layout-flex"
+  style="margin-top:4vh">
+  <li class="wp-social-link wp-social-link-facebook  wp-block-social-link"><a
+      href="https://www.facebook.com/tvsemerald/" class="wp-block-social-link-anchor">
+      <img class="lazy" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="/wp-content/uploads/2025/09/Facebook.png" alt="">
+      <span class="wp-block-social-link-label screen-reader-text">Facebook</span></a></li>
+
+  <li class="wp-social-link wp-social-link-twitter  wp-block-social-link"><a href="https://twitter.com/tvsemerald"
+      class="wp-block-social-link-anchor">
+      <img class="lazy" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="/wp-content/uploads/2025/09/x.png" alt="">
+      <span class="wp-block-social-link-label screen-reader-text">Twitter</span></a></li>
+
+  <li class="wp-social-link wp-social-link-instagram  wp-block-social-link"><a
+      href="https://www.instagram.com/tvs_emerald/" class="wp-block-social-link-anchor">
+      <img class="lazy" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="/wp-content/uploads/2025/09/Instagram.png" alt="">
+      <span class="wp-block-social-link-label screen-reader-text">Instagram</span></a></li>
+
+  <li class="wp-social-link wp-social-link-youtube  wp-block-social-link"><a
+      href="https://www.youtube.com/user/Emeraldhavenrealty" class="wp-block-social-link-anchor">
+      <img class="lazy" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="/wp-content/uploads/2025/09/Youtube.png" alt="">
+      <span class="wp-block-social-link-label screen-reader-text">YouTube</span></a></li>
+
+  <li class="wp-social-link wp-social-link-facebook  wp-block-social-link"><a
+      href="https://www.linkedin.com/company/tvs-emerald/" class="wp-block-social-link-anchor">
+      <img class="lazy" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="/wp-content/uploads/2025/09/Linkedin.png" alt="">
+      <span class="wp-block-social-link-label screen-reader-text">Linked In</span></a></li>
+</ul></div>      </div>
+      <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+        <div class="social-media">
+                  </div>
+      </div>
+    </div>
+    <div class="row m-Top-10 border width100 footer-rera-projects-wrapper hidden">
+      <div class="col-md-15 col-sm-4 col-xs-12 border-right border-rera-box">
+        <div class="footer-project">
+          <h4><a href="/projects/tvs-emerald-atrium/">TVS Emerald Atrium</a></h4> <span class="rera_no">TN/01/Building/0194/2021 </span>
+        </div>
+      </div>
+      <div class="col-md-15 col-sm-4 col-xs-12 border-right border-rera-box">
+        <div class="footer-project">
+          <h4><a href="/projects/tvs-emerald-peninsula/">TVS Emerald Peninsula</a></h4> <span class="rera_no">TN/29/Building/0032/2021</span>
+        </div>
+      </div>
+      <div class="col-md-15 col-sm-4 col-xs-12 border-right border-rera-box">
+        <div class="footer-project">
+          <h4><a href="/projects/tvs-emerald-hamlet/">TVS Emerald Hamlet</a></h4> <span class="rera_no">TN/29/Layout/0127/2019</span>
+        </div>
+      </div>
+      <div class="col-md-15 col-sm-4 col-xs-12 border-right border-rera-box">
+        <div class="footer-project">
+          <h4><a href="/projects/tvs-emerald-green-enclave/">TVS Emerald Green Enclave</a></h4> <span class="rera_no">TN/01/Building/0346/2018</span>
+        </div>
+      </div>
+      <div class="col-md-15 col-sm-4 col-xs-12">
+        <div class="footer-project">
+          <h4><a href="/projects/tvs-emerald-lighthouse/">TVS Emerald LightHouse</a></h4> <span class="rera_no">TN/29/Building/0005/2017</span>
+        </div>
+      </div>
+    </div>
+    <div class="row m-bottom-20 m-Top-10" style="width: 100%;float: left;margin-left: auto;margin-right: auto;">
+      <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-center">
+        <div class="flex-both-center">
+          <p class="copyright">COPYRIGHT 2026. TVS EMERALD. ALL RIGHTS RESERVED.
+                                  </p>
+        </div>
+      </div>
+          </div>
+  </div>
+</footer>
+
+<div id="ohsnap"></div>
+
+  <div class="stickyForm" id="" autocomplete="off">
+    <div class="close"><button class="close btn"><i id="_enquire_now_close_button" class="fa fa-times-circle" aria-hidden="true"></i></button></div>
+    <button id="_enquire_now" class="btn open_close_btn">Enquire Now</button>
+    <div class="stickyFormInner" id="stickyForm">
+      <form action="/webSaveInfo/" method="POST" id="web_sticky_form" class="web_sticky_form contact_form_new">
+        <div class="form-field">
+          <div class="input_icon_wrap">
+            <input type="text" name="name" placeholder="Name*" required="">
+            <i class="fa fa-user"></i>
+          </div>
+        </div>
+        <div class="form-field">
+          <div class="input_icon_wrap">
+            <input type="text" name="email" placeholder="Email" required>
+            <i class="fa fa-envelope-o"></i>
+          </div>
+        </div>
+        <div class="form-field">
+          <div class="input_icon_wrap">
+            <input type="hidden" name="country_code" id="country_code_sticky_form" value="91" />
+            <input type="tel" name="phone" placeholder="Phone*" required="" class="phone">
+            <i class="fa fa-phone"></i>
+          </div>
+        </div>
+        <input type="text" value="" name="form_field_12" class="form_field_12">
+        <div class="form-field">
+          <div class="terms_conditions">
+            <input type="checkbox" name="checkbox" value="check" id="agree" checked="checked" required="" aria-required="true">
+            <span>
+              I have read and understood the <a href="/privacy-policy/" target="_blank">Privacy Policy.</a> By registering here, I agree to TVS Emerald's <a href="/privacy-policy/" target="_blank">Terms & Conditions.</a>
+            </span>
+          </div>
+          <label id="checkbox-error" class="error" for="checkbox"></label>
+        </div>
+        
+                <div class="form-field" style="position:relative;">
+          <div class="submit_loading_btn loading" style="display:none;">
+            <img class="no-lazy" src="/wp-content/uploads/2024/02/loading.gif" width="20px" alt="">
+          </div>
+          <input type="submit" id="enquire_now_btn" value="Submit Form">
+        </div>
+        <input type="hidden" name="form_name" value="Sticky Form1">
+        <input type="hidden" name="g-recaptcha-response">
+        <input type="hidden" name="project_name" value="">
+        <input type="hidden" name="utm_source" value="">
+        <input type="hidden" name="utm_medium" value="">
+        <input type="hidden" name="utm_term" value="">
+        <input type="hidden" name="utm_content" value="">
+        <input type="hidden" name="utm_campaign" value="">
+        <input type="hidden" name="pageUrl" value='https://www.tvsemerald.com/img/tvs-logo.png'>
+        <!-- SalesForce -->
+        <input type="hidden" name="sub_source" value="">
+        <input type="hidden" name="p_s" value="Digital">
+        <input type="hidden" name="se_s" value="Website">
+        <input type="hidden" name="t_s" value="Website Leads">
+        <!-- SalesForce -->
+        <!-- Extra SalesForce -->
+        <input type="hidden" name="ADCampaignID" value="">
+        <input type="hidden" name="AdSetID" value="">
+        <input type="hidden" name="AdID" value="">
+        <input type="hidden" name="placement" value="">
+        <input type="hidden" name="device" value="">
+        <input type="hidden" name="gclid" value="">
+        <!-- Extra SalesForce -->
+
+        <input type="hidden" name="detect_device" value="" />
+        <input type="hidden" name="detect_device_name" value="" />
+        <input type="hidden" name="City__c" value="">
+        <input type="hidden" name="Country__c" value="">
+        <input type="hidden" name="Browser__c" value="">
+        <input type="hidden" name="Operating_System__c" value="">
+
+      </form>
+    </div>
+  </div>
+
+  <div class="call-btn-form mfp-hide white-popup popup-form-wrapper primary_popup_form_style hidden" id="form-to-give-call" autocomplete="off">
+    <div class="popupCallForm" id="popupForm">
+      <form action="/webSaveInfo/" method="POST" id="web_call_form" class="web_call_form call_form_new">
+        <div class="form-field">
+          <div class="input_icon_wrap">
+            <input type="text" name="name" placeholder="Name*" required="">
+            <i class="fa fa-user"></i>
+          </div>
+        </div>
+        <div class="form-field">
+          <div class="input_icon_wrap">
+            <input type="text" name="email" placeholder="Email" required >
+            <i class="fa fa-envelope-o"></i>
+          </div>
+        </div>
+        <div class="form-field">
+          <div class="terms_conditions">
+            <input type="checkbox" name="checkbox" value="check" id="agree" checked="checked" required="" aria-required="true">
+            <span>
+              I have read and understood the <a href="/privacy-policy/" target="_blank">Privacy Policy.</a> By registering here, I agree to TVS Emerald's <a href="/privacy-policy/" target="_blank">Terms & Conditions.</a>
+            </span>
+          </div>
+          <label id="checkbox-error" class="error" for="checkbox"></label>
+        </div>
+        
+                <div class="form-field" style="position:relative;">
+          <div class="submit_loading_btn loading" style="display:none;">
+            <img class="no-lazy" src="/wp-content/uploads/2024/02/loading.gif" width="20px" alt="">
+          </div>
+          <input type="submit" id="call_now_btn" value="Submit Form">
+        </div>
+        <input type="hidden" name="form_name" value="Give Call Form">
+        <input type="hidden" name="g-recaptcha-response">
+        <input type="hidden" name="project_name" value="">
+        <input type="hidden" name="utm_source" value="">
+        <input type="hidden" name="utm_medium" value="">
+        <input type="hidden" name="utm_term" value="">
+        <input type="hidden" name="utm_content" value="">
+        <input type="hidden" name="utm_campaign" value="">
+        <input type="hidden" name="pageUrl" value='https://www.tvsemerald.com/img/tvs-logo.png'>
+        <!-- SalesForce -->
+        <input type="hidden" name="sub_source" value="">
+        <input type="hidden" name="p_s" value="Digital">
+        <input type="hidden" name="se_s" value="Website">
+        <input type="hidden" name="t_s" value="Website Leads">
+        <!-- SalesForce -->
+        <!-- Extra SalesForce -->
+        <input type="hidden" name="ADCampaignID" value="">
+        <input type="hidden" name="AdSetID" value="">
+        <input type="hidden" name="AdID" value="">
+        <input type="hidden" name="placement" value="">
+        <input type="hidden" name="device" value="">
+        <input type="hidden" name="gclid" value="">
+        <!-- Extra SalesForce -->
+
+        <input type="hidden" name="detect_device" value="" />
+        <input type="hidden" name="detect_device_name" value="" />
+        <input type="hidden" name="City__c" value="">
+        <input type="hidden" name="Country__c" value="">
+        <input type="hidden" name="Browser__c" value="">
+        <input type="hidden" name="Operating_System__c" value="">
+
+      </form>
+    </div>
+  </div>
+
+
+  <!-- <script type="rocketlazyloadscript" src="https://www.tvsemerald.com/wp-content/themes/tvs/assets/js/bootstrap.min.js"></script> -->
+  <script type="rocketlazyloadscript" src="https://www.tvsemerald.com/wp-content/themes/tvs/assets/js/bootstrapv5.min.js"></script>
+
+  <script type="rocketlazyloadscript" src="https://www.tvsemerald.com/wp-content/themes/tvs/assets/js/22-wow.min.js"></script>
+  <script type="rocketlazyloadscript" src="https://www.tvsemerald.com/wp-content/themes/tvs/assets/js/aos.js"></script>
+  <script type="rocketlazyloadscript" src="https://www.tvsemerald.com/wp-content/themes/tvs/assets/js/magnific-popup.js"></script>
+  <script type="rocketlazyloadscript" src="https://www.tvsemerald.com/wp-content/themes/tvs/assets/js/owlcarousel2-filter.min.js"></script>
+  <script type="rocketlazyloadscript" src="https://www.tvsemerald.com/wp-content/themes/tvs/assets/js/ohsnap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+      <script type="rocketlazyloadscript" src="https://www.tvsemerald.com/wp-content/themes/tvs/assets/js/semantic.min.js"></script>
+    <script type="rocketlazyloadscript" src="https://www.tvsemerald.com/wp-content/themes/tvs/assets/js/jquery.fancybox.min.js"></script>
+    <script type="rocketlazyloadscript" src="https://www.tvsemerald.com/wp-content/themes/tvs/assets/js/jquery.datetimepicker.full.min.js"></script>
+    <script type="rocketlazyloadscript" src="https://www.tvsemerald.com/wp-content/themes/tvs/assets/js/jquery-ui.min.js"></script>
+    <script type="rocketlazyloadscript" src="https://www.tvsemerald.com/wp-content/themes/tvs/assets/js/intlTelInput.min.js"></script>
+  <!-- <script type="rocketlazyloadscript" src="https://www.tvsemerald.com/wp-content/themes/tvs/assets/js/minify-main.js"></script> -->
+  <script type="rocketlazyloadscript" src="https://www.tvsemerald.com/wp-content/themes/tvs/assets/js/main.js?57743667"></script>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/tvs/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+	<div class="ald_laser_loader">
+		<div class="ald_loader_progress"></div>
+	</div>
+	    <script>
+        jQuery(document).ready(function($) {
+            $('a[href^="tel:"]').each(function() {
+                const $link = $(this);
+                const originalHref = $link.attr('href');
+                const cleanedHref = 'tel:' + originalHref.replace('tel:', '').replace(/[^\d+]/g, '');
+                $link.attr('href', cleanedHref);
+            });
+        });
+    </script>
+      <script>
+    jQuery(document).ready(function($) {
+      $('.search_box form').on('submit', function(e) {
+        if ($.trim($('#search').val()) === '') {
+          e.preventDefault();
+        }
+      });
+    });
+  </script>
+  <script   id="imagesloaded-js" src="https://www.tvsemerald.com/wp-includes/js/imagesloaded.min.js?ver=5.0.0"></script>
+<script id="ubermenu-js-extra">
+var ubermenu_data = {"remove_conflicts":"off","reposition_on_load":"off","intent_delay":"300","intent_interval":"100","intent_threshold":"7","scrollto_offset":"50","scrollto_duration":"1000","responsive_breakpoint":"959","accessible":"on","retractor_display_strategy":"responsive","touch_off_close":"on","submenu_indicator_close_mobile":"on","collapse_after_scroll":"on","v":"3.7.4","configurations":["main"],"ajax_url":"https://www.tvsemerald.com/wp-admin/admin-ajax.php","plugin_url":"https://www.tvsemerald.com/wp-content/plugins/ubermenu/","disable_mobile":"off","prefix_boost":"","use_core_svgs":"off","aria_role_navigation":"off","aria_nav_label":"off","aria_expanded":"off","aria_hidden":"off","aria_controls":"","aria_responsive_toggle":"off","icon_tag":"i","esc_close_mobile":"on","theme_locations":{"primary-menu":"Primary Menu","footer-first-menu":"Footer First Menu","footer-second-menu":"Footer Second Menu","footer-third-menu":"Footer Third Menu","footer-fourth-menu":"Footer Fourth Menu","footer-five-menu":"Footer Five Menu","sitemap-menu":"Site Map"}};
+//# sourceURL=ubermenu-js-extra
+</script>
+<script   id="ubermenu-js" src="https://www.tvsemerald.com/wp-content/plugins/ubermenu/assets/js/ubermenu.min.js?ver=3.7.4"></script>
+<script id="ald-scripts-js-extra">
+var ald_params = {"nonce":"427a26e357","ajaxurl":"https://www.tvsemerald.com/wp-admin/admin-ajax.php","ald_pro":"0"};
+//# sourceURL=ald-scripts-js-extra
+</script>
+<script   id="ald-scripts-js" src="https://www.tvsemerald.com/wp-content/plugins/ajax-load-more-anything/assets/scripts.js?ver=3.3.8"></script>
+<script type="text/javascript">jQuery(document).ready(function($){var loader='<div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>';jQuery(".faq-box-wrapper .Accordions").append('<a data-glm-button-selector=".faq-box-wrapper .Accordions"  href="#" class=" btn loadMoreBtn " id="loadMore"><span class="loadMoreBtn-label">View More</span></a>');jQuery(".faq-box-wrapper .Accordion_item").slice(0,5).show();jQuery(document).find(".faq-box-wrapper .Accordions .ald-count").text(jQuery(".faq-box-wrapper .Accordion_item:hidden").length);jQuery(".faq-box-wrapper .Accordions").find(".loadMoreBtn").on('click',function(e){e.preventDefault();jQuery(".faq-box-wrapper .Accordion_item:hidden").slice(0,5).slideDown();if(jQuery(".faq-box-wrapper .Accordion_item:hidden").length==0){jQuery(this).fadeOut('slow')}jQuery(document).find(".faq-box-wrapper .Accordions .ald-count").text(jQuery(".faq-box-wrapper .Accordion_item:hidden").length)});if(jQuery(".faq-box-wrapper .Accordion_item:hidden").length==0){jQuery(".faq-box-wrapper .Accordions").find(".loadMoreBtn").fadeOut('slow')}jQuery(".offer-page.content").append('<a data-glm-button-selector=".offer-page.content"  href="#" class=" btn loadMoreBtn " id="loadMore"><span class="loadMoreBtn-label">View More</span></a>');jQuery(".offer-page .box-wrapper-offer").slice(0,1).show();jQuery(document).find(".offer-page.content .ald-count").text(jQuery(".offer-page .box-wrapper-offer:hidden").length);jQuery(".offer-page.content").find(".loadMoreBtn").on('click',function(e){e.preventDefault();jQuery(".offer-page .box-wrapper-offer:hidden").slice(0,1).slideDown();if(jQuery(".offer-page .box-wrapper-offer:hidden").length==0){jQuery(this).fadeOut('slow')}jQuery(document).find(".offer-page.content .ald-count").text(jQuery(".offer-page .box-wrapper-offer:hidden").length)});if(jQuery(".offer-page .box-wrapper-offer:hidden").length==0){jQuery(".offer-page.content").find(".loadMoreBtn").fadeOut('slow')}var flag=false;var main_xhr;var LoadMorePushAjax=function(url,args){jQuery('.ald_loader_progress').css({"-webkit-transform":"translate3d(-100%, 0px, 0px)","-ms-transform":"translate3d(-100%, 0px, 0px)","transform":"translate3d(-100%, 0px, 0px)",});if(args.data_implement_selectors){var dis=JSON.parse(args.data_implement_selectors)}if(main_xhr&&main_xhr.readyState!=4){main_xhr.abort()}args.target_url=url;main_xhr=jQuery.ajax({url:url,asynch:true,beforeSend:function(){jQuery('.ald_laser_loader').addClass('show');jQuery('.ald_loader_progress').css({"transition-duration":"2000ms","-webkit-transform":"translate3d(-20%, 0px, 0px)","-ms-transform":"translate3d(-20%, 0px, 0px)","transform":"translate3d(-20%, 0px, 0px)",});flag=true},success:function(data){jQuery(document).trigger('ald_ajax_content_ready',[data,args]);if(dis){for(var key in dis){var selector=dis[key].data_selector;var type=dis[key].implement_type;if(selector){var newData=jQuery(selector,data).html();if(type=="insert_before"){jQuery(selector).prepend(newData)}else if(type=="insert_after"){jQuery(selector).append(newData)}else{jQuery(selector).html(newData)}}}}jQuery(document).find('.tf_posts_navigation').removeClass('loading');jQuery('.ald-ajax-btn[data-alm-click-selector]').each(function(){if(jQuery(this).data('alm-click-selector')==args.click_selector){jQuery(this).removeClass('loading')}});jQuery('.ald_loader_progress').css({"transition-duration":"500ms","-webkit-transform":"translate3d(0%, 0px, 0px)","-ms-transform":"translate3d(0%, 0px, 0px)","transform":"translate3d(0%, 0px, 0px)",});setTimeout(function(){jQuery('.ald_laser_loader').removeClass('show');jQuery('.ald_loader_progress').css({"transition-duration":"0ms","-webkit-transform":"translate3d(-100%, 0px, 0px)","-ms-transform":"translate3d(-100%, 0px, 0px)","transform":"translate3d(-100%, 0px, 0px)",})},300);jQuery(document).trigger('ald_ajax_content_loaded',data);jQuery(document).trigger('ald_ajax_content_success',[args]);flag=false}})}});</script>
+  <script type="rocketlazyloadscript">
+    setTimeout(function(){
+          var tag = document.createElement("script");     
+          tag.src = "https://www.kenyt.ai/botapp/ChatbotUI/dist/js/bot-loader.js";     
+          tag.setAttribute("data-bot", "25317733")     
+          document.getElementsByTagName("head")[0].appendChild(tag);     
+        },1000);
+
+      </script>
+
+
+
+
+
+
+  <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeHR4jN5x0GKPp2H_UtrDqcCmrAMt6MCY"></script> -->
+
+
+
+
+
+<script type="rocketlazyloadscript">
+  $(document).ready(function() {
+    if ($("input[name='phone']").length > 0) {
+      $("input[name='phone']").keyup(function(e) {
+        if ($(this).val().match(/^0/)) {
+          $(this).val("");
+          return false;
+        }
+      });
+    }
+  });
+</script>
+<script>
+  jQuery('.ubermenu-responsive-toggle').on('ubermenutoggledopen', function(e) {
+    dataLayer.push({
+      'Event_id': 'hamburger_open_event',
+      'event': 'hamburger_open_event',
+      'elementId': "hamburger_open_event"
+    });
+  });
+  jQuery('.ubermenu-responsive-toggle').on('ubermenutoggledclose', function(e) {
+    dataLayer.push({
+      'Event_id': 'hamburger_close_event',
+      'event': 'hamburger_close_event',
+      'elementId': "hamburger_close_event"
+    });
+  });
+</script>
+
+<style>
+  body .form_field_12 {
+    display: none !important;
+  }
+</style>
+
+<script type="rocketlazyloadscript">
+  $(".phone").intlTelInput({
+      defaultCountry: "auto",
+      initialCountry: "auto",
+      geoIpLookup: function(callback) {
+        callback("IN");
+      },
+      utilsScript: "assets/js/utils.js",
+    }),
+    $(".phone").on("countrychange", function(e, countryData) {
+      var dialCode = countryData.dialCode,
+        countryCodeElem = $(
+          "#country_code_sticky_form, #country_code_1, #country_code_2, #country_code_3, #country_code_4, #country_code_5"
+        );
+      countryCodeElem.val(dialCode);
+    });
+</script>
+<script type="rocketlazyloadscript">
+  $(".phone").intlTelInput({
+      defaultCountry: "auto",
+      initialCountry: "auto",
+      geoIpLookup: function(callback) {
+        callback("IN");
+      },
+      utilsScript: "assets/js/utils.js",
+    }),
+    $(".phone").on("countrychange", function(e, countryData) {
+      var dialCode = countryData.dialCode,
+        countryCodeElem = $(
+          "#country_code_sticky_form, #country_code_1, #country_code_2, #country_code_3, #country_code_4, #country_code_5"
+        );
+      countryCodeElem.val(dialCode);
+    });
+</script>
+
+
+<style>
+  .tabbed ul {
+    grid-template-columns: repeat(10, calc(13.3333% - 36px)) !important;
+  }
+
+  .tabbed ul li {
+    padding: 10px 28px 8px;
+  }
+
+  .main_box_milestone {
+    margin-top: 2rem;
+  }
+
+  .main_box_milestone .box_milestone:first-child {
+    float: left;
+    margin-right: 2vw;
+  }
+
+  .main_box_milestone .box_milestone.w-40:first-child {
+    width: 40%;
+  }
+
+  .main_box_milestone .box_milestone ul li {
+    line-height: 25px;
+    list-style-type: disc;
+    margin-bottom: 10px;
+  }
+
+  .bb_1 {
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 3vw;
+  }
+
+  ul.month-tabs {
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 0px;
+  }
+
+  .tabbed {
+    width: 96% !important;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #8ab300 #a7cc2c;
+  }
+
+  .tabbed ul li:before {
+    right: -29px;
+  }
+
+  .tabbed ul li:after {
+    left: -26px;
+  }
+
+  @media(min-width:1490px) {
+    .tabbed {
+      width: 80% !important;
+    }
+  }
+
+  @media(max-width:1320px) {
+    .tabbed {
+      width: 92% !important;
+    }
+  }
+
+  @media(max-width:1250px) {
+    .tabbed {
+      width: 99% !important;
+    }
+  }
+
+  @media(max-width:650px) {
+    .events-content-inner.year-2023 {}
+
+    .events-content-inner.year-2023 .month-tabs {
+      display: flex;
+      overflow: hidden;
+      overflow-x: scroll;
+      max-width: 100%;
+      flex-wrap: unset;
+      justify-content: flex-start !important;
+      margin: 0px;
+      margin-top: -1rem;
+      gap: 0px;
+    }
+
+    .events-content-inner.year-2023 .month-tabs li {
+      width: auto;
+      margin: 0px 1vw;
+    }
+
+    .events-content-inner .image {
+      height: auto !important;
+      min-height: auto !important;
+    }
+
+    .main_box_milestone {
+      display: flex;
+      margin-top: 0rem;
+      flex-direction: column-reverse;
+    }
+
+    .main_box_milestone .box_milestone.w-40:first-child {
+      width: 100%;
+    }
+
+    .milestone_section .tabbed ul {
+      grid-template-columns: unset !important;
+      display: flex;
+      overflow: hidden;
+      overflow-x: scroll;
+      max-width: 100%;
+      flex-wrap: unset;
+      justify-content: flex-start !important;
+      margin: 0px;
+      margin-bottom: 15px;
+    }
+
+    .tabbed.round ul li {
+      margin: 5px 5px !important;
+      min-width: 100px;
+      text-align: center;
+      padding: 5px !important;
+      border-radius: 4px !important;
+    }
+
+    ul.month-tabs button {
+      margin-top: 2vh;
+      width: 110px;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+  }
+
+  .custom_navigation button.owl-next.disabled {
+    display: none;
+  }
+
+  .custom_navigation button.owl-prev.disabled {
+    display: none;
+  }
+
+
+  div#footer-widget-area .chw-widget:last-child {
+    padding-left: 20px;
+  }
+
+  @media(max-width:650px) {
+    div#footer-widget-area .chw-widget:last-child {
+      padding-left: 0px;
+    }
+  }
+</style>
+ <script>
+document.querySelectorAll('input[type="text"], input[type="tel"]').forEach(input => {
+    input.addEventListener('input', () => {
+        const originalValue = input.value;
+        let cleanedValue = originalValue;
+
+        // If ID contains "name" → block numbers
+        if (input.name.toLowerCase().includes('name')) {
+            cleanedValue = originalValue.replace(/[0-9]/g, '');
+        }
+
+        // If ID contains "phone" or "number" → allow only digits
+        else if (input.name.toLowerCase().includes('phone') || input.id.toLowerCase().includes('number')) {
+            cleanedValue = originalValue.replace(/[^0-9]/g, '');
+        }
+
+        if (originalValue !== cleanedValue) {
+            input.value = cleanedValue;
+        }
+    });
+});
+</script>
+
+
+<script type="rocketlazyloadscript">
+  // Device Adding into the form  
+  function getDeviceType() {
+    const ua = navigator.userAgent;
+
+    if (/Mobi|Android/i.test(ua)) {
+      if (/Tablet|iPad|iPod/i.test(ua)) {
+        return "t";
+      }
+      return "m";
+    }
+    return "c";
+  }
+
+  function getDeviceName() {
+    const ua = navigator.userAgent;
+    let deviceName = "Unknown Device";
+
+    const deviceMatchers = [{
+        regex: /iPhone/i,
+        name: "iPhone"
+      },
+      {
+        regex: /iPad/i,
+        name: "iPad"
+      },
+      {
+        regex: /iPod/i,
+        name: "iPod"
+      },
+      {
+        regex: /Android/i,
+        name: "Android Device"
+      },
+      {
+        regex: /Windows Phone/i,
+        name: "Windows Phone"
+      },
+      {
+        regex: /Macintosh/i,
+        name: "Mac"
+      },
+      {
+        regex: /Windows NT/i,
+        name: "Windows PC"
+      },
+      {
+        regex: /Linux/i,
+        name: "Linux PC"
+      },
+      {
+        regex: /BlackBerry/i,
+        name: "BlackBerry"
+      },
+      {
+        regex: /BB10/i,
+        name: "BlackBerry 10"
+      },
+      {
+        regex: /PlayBook/i,
+        name: "BlackBerry PlayBook"
+      },
+    ];
+
+    for (const device of deviceMatchers) {
+      if (device.regex.test(ua)) {
+        deviceName = device.name;
+        break;
+      }
+    }
+    if (deviceName === "Android Device") {
+      const androidDeviceMatchers = [{
+          regex: /Samsung/i,
+          name: "Samsung"
+        },
+        {
+          regex: /Pixel/i,
+          name: "Google Pixel"
+        },
+        {
+          regex: /Huawei/i,
+          name: "Huawei"
+        },
+        {
+          regex: /OnePlus/i,
+          name: "OnePlus"
+        },
+        {
+          regex: /Xiaomi/i,
+          name: "Xiaomi"
+        },
+        {
+          regex: /Sony/i,
+          name: "Sony"
+        },
+        {
+          regex: /LG/i,
+          name: "LG"
+        },
+        {
+          regex: /HTC/i,
+          name: "HTC"
+        },
+        // Add more specific Android device manufacturers as needed
+      ];
+
+      for (const device of androidDeviceMatchers) {
+        if (device.regex.test(ua)) {
+          deviceName = `${device.name} Android Device`;
+          break;
+        }
+      }
+    }
+    return deviceName;
+  }
+  const deviceType = getDeviceType();
+  const deviceName = getDeviceName();
+  $("input[name='detect_device']").val(deviceType);
+  $("input[name='detect_device_name']").val(deviceName);
+  $.getJSON("https://get.geojs.io/v1/ip/geo.json", function(data) {
+    // console.log(data);
+    var ip_address = data.ip;
+    var city = data.city;
+    var country = data.country;
+    $("input[name='City__c']").val(city);
+    $("input[name='Country__c']").val(country);
+  });
+  getBrowserInfo();
+
+  function getBrowserInfo() {
+    var userAgent = navigator.userAgent;
+    var browserName;
+    if (userAgent.indexOf("Firefox") > -1) {
+      browserName = "Mozilla Firefox";
+    } else if (userAgent.indexOf("SamsungBrowser") > -1) {
+      browserName = "Samsung Internet";
+    } else if (userAgent.indexOf("Opera") > -1 || userAgent.indexOf("OPR") > -1) {
+      browserName = "Opera";
+    } else if (userAgent.indexOf("Trident") > -1) {
+      browserName = "Internet Explorer";
+    } else if (userAgent.indexOf("Edge") > -1) {
+      browserName = "Microsoft Edge";
+    } else if (userAgent.indexOf("Chrome") > -1) {
+      browserName = "Google Chrome";
+    } else if (userAgent.indexOf("Safari") > -1) {
+      browserName = "Safari";
+    } else {
+      browserName = "Unknown";
+    }
+    $("input[name='Browser__c']").val(browserName);
+  }
+  getOSInfo();
+
+  function getOSInfo() {
+    var userAgent = navigator.userAgent;
+    var platform = navigator.platform;
+    var os = "Unknown";
+
+    if (platform.indexOf('Win') > -1) {
+      os = "Windows";
+    } else if (platform.indexOf('Mac') > -1) {
+      os = "MacOS";
+    } else if (platform.indexOf('X11') > -1) {
+      os = "UNIX";
+    } else if (platform.indexOf('Linux') > -1) {
+      os = "Linux";
+    } else if (/Android/.test(userAgent)) {
+      os = "Android";
+    } else if (/iPhone|iPad|iPod/.test(userAgent)) {
+      os = "iOS";
+    }
+    $("input[name='Operating_System__c']").val(os);
+  }
+  // Device Adding into the form
+</script>
+<script type="rocketlazyloadscript">
+  $(window).on('load', function() {
+
+    setTimeout(function() {
+      var timing = window.performance.timing;
+      var pageLoadTime = ((timing.loadEventEnd - timing.navigationStart) / 1000).toFixed(2);
+      var serverResponseTime = ((timing.responseEnd - timing.requestStart) / 1000).toFixed(2);
+      var domContentLoadedTime = ((timing.domContentLoadedEventEnd - timing.navigationStart) / 1000).toFixed(2);
+
+      // console.log(pageLoadTime);
+      // console.log(serverResponseTime);
+      // console.log(domContentLoadedTime);
+
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        'event': 'page_load_performance',
+        'page_load_time': pageLoadTime,
+        'server_response_time': serverResponseTime,
+        'dom_content_loaded_time': domContentLoadedTime
+      });
+    }, 20)
+
+
+  });
+</script>
+
+<!-- site24x7 2 April 2025 -->
+<script type="text/javascript" type="rocketlazyloadscript">
+  (function(w, d, s, r, k, h, m) {
+    if (w.performance && w.performance.timing && w.performance.navigation && !w.s247r) {
+      w[r] = w[r] || function() {
+        (w[r].q = w[r].q || []).push(arguments)
+      };
+      h = d.createElement('script');
+      h.async = true;
+      h.setAttribute('src', s + k);
+      d.getElementsByTagName('head')[0].appendChild(h);
+      (m = window.onerror), (window.onerror = function(b, c, d, f, g) {
+        m && m(b, c, d, f, g), g || (g = new Error(b)), (w[r].q = w[r].q || []).push(["captureException", g]);
+      })
+    }
+  })(window, document, '//static.site24x7rum.in/beacon/site24x7rum-min.js?appKey=', 's247r', '7410694cbd4ef0af106e600a467e9801');
+</script>
+
+<script>window.w3tc_lazyload=1,window.lazyLoadOptions={elements_selector:".lazy",callback_loaded:function(t){var e;try{e=new CustomEvent("w3tc_lazyload_loaded",{detail:{e:t}})}catch(a){(e=document.createEvent("CustomEvent")).initCustomEvent("w3tc_lazyload_loaded",!1,!1,{e:t})}window.dispatchEvent(e)}}</script><script async src="https://www.tvsemerald.com/wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js"></script></body>
+
+</html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Object Caching 271/288 objects using Redis
+Page Caching using Redis (Page is 404) 
+Lazy Loading
+Database Caching 15/31 queries in 0.023 seconds using Redis
+
+Served from: www.tvsemerald.com @ 2026-06-16 00:05:29 by W3 Total Cache
+-->
